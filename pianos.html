@@ -133,97 +133,9 @@
 								</select>
 								<input type="hidden" name="q" value="/shop/" />
 							</form>
-							<ul class="products">
-								<li class="product type-product has-post-thumbnail column-1_3" id="a">
-									<div class="post_item_wrap">
-										<div class="post_featured">
-											<div class="post_thumb">
-												<a class="hover_icon hover_icon_link" href="product.html">
-													<img width="300" height="300" src="images/piano-1.jpg" alt="product-3" title="product-3" /></a>
-											</div>
-										</div>
-										<div class="post_content">
-											<h3><a href="product.html">Steinway & Sons <br> A188 Louis XV</a></h3>
-											<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>160,000</span>
-											</span>
-											<a rel="nofollow" href="product.html" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
-									</div>
-								</li>
-								<li class="product type-product has-post-thumbnail column-1_3" id="b">
-									<div class="post_item_wrap">
-										<div class="post_featured">
-											<div class="post_thumb">
-												<a class="hover_icon hover_icon_link" href="product.html">
-													<img width="300" height="300" src="images/product-4-300x300.jpg" alt="product-4" title="product-4"  /> </a>
-											</div>
-										</div>
-										<div class="post_content">
-											<h3><a href="product.html">Celviano Piano</a></h3>
-											<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>399.99</span>
-											</span>
-											<a rel="nofollow" href="product.html" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
-									</div>
-								</li>
-								<li class="product type-product has-post-thumbnail column-1_3">
-									<div class="post_item_wrap">
-										<div class="post_featured">
-											<div class="post_thumb">
-												<a class="hover_icon hover_icon_link" href="product.html">
-													<img width="300" height="300" src="images/piano-1.jpg" alt="product-6" title="product-6" /> </a>
-											</div>
-										</div>
-										<div class="post_content">
-											<h3><a href="product.html">Code61 USB MIDI Controller</a></h3>
-											<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>999.99</span>
-											</span>
-											<a rel="nofollow" href="product.html" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
-									</div>
-								</li>
-								<li class="product type-product has-post-thumbnail column-1_3">
-									<div class="post_item_wrap">
-										<div class="post_featured">
-											<div class="post_thumb">
-												<a class="hover_icon hover_icon_link" href="product.html">
-													<img width="300" height="300" src="images/product-1-300x300.jpg" alt="product-1" title="product-1" /> </a>
-											</div>
-										</div>
-										<div class="post_content">
-											<h3><a href="product.html">Dreadnought Acoustic Guitar</a></h3>
-											<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>349.99</span>
-											</span>
-											<a rel="nofollow" href="product.html" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
-									</div>
-								</li>
-								<li class="product type-product has-post-thumbnail column-1_3">
-									<div class="post_item_wrap">
-										<div class="post_featured">
-											<div class="post_thumb">
-												<a class="hover_icon hover_icon_link" href="product.html">
-													<img width="300" height="300" src="images/product-7-300x300.jpg" alt="product-7" title="product-7" /> </a>
-											</div>
-										</div>
-										<div class="post_content">
-											<h3><a href="product.html">Impressed 6-Piece Drum Set</a></h3>
-											<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>129.99</span>
-											</span>
-											<a rel="nofollow" href="product.html" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
-									</div>
-								</li>
-								<li class="product type-product has-post-thumbnail column-1_3">
-									<div class="post_item_wrap">
-										<div class="post_featured">
-											<div class="post_thumb">
-												<a class="hover_icon hover_icon_link" href="product.html">
-													<img width="300" height="300" src="images/product-7-300x300.jpg" alt="product-7" title="product-7" /> </a>
-											</div>
-										</div>
-										<div class="post_content">
-											<h3><a href="product.html">Impressed 6-Piece Drum Set</a></h3>
-											<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>129.99</span>
-											</span>
-											<a rel="nofollow" href="product.html" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
-									</div>
-								</li>
+							<ul class="products" id="piano-list-wrapper">
+
+
 							</ul>
 						</div>
 					</div>
@@ -293,7 +205,9 @@
 	<script type='text/javascript' src='js/vendor/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js'></script>
 	<script type='text/javascript' src='js/vendor/plugins/woocommerce/assets/js/frontend/price-slider.min.js'></script>
 	<script type='text/javascript' src='js/custom/custom.js'></script>
-	
+	<script>
+		renderList(pianosList, "#piano-list-wrapper", document);
+	</script>
 
 </body>
 </html>

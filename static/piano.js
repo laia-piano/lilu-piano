@@ -1,4 +1,4 @@
-const pianoList = [
+const pianosList = [
   {
     "uri": "../images/product-1-300x300.jpg",
     "price": 349.99,

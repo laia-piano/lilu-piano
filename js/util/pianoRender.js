@@ -1,6 +1,8 @@
 // 1. render list and append
 
-function renderList (json) {
+function renderList (json, domId, domcument) {
+    const node = domcument.querySelector("#piano-list-wrapper");
+    node.innerHTML = "";
     console.log(json);
 
     let component = '';
@@ -24,6 +26,8 @@ function renderList (json) {
                     </li>
 `;
     });
+
+    node.insertAdjacentHTML('afterbegin', component);
 
     return component;
 }
