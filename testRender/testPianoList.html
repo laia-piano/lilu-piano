@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Piano</title>
+    <script src="../js/util/pianoRender.js"></script>
+    <script src="../static/piano.js"></script>
+</head>
+<body>
+    <div class="test-list">
+        test <br>
+    </div>
+<script>
+    // import {renderList} from "../js/util/pianoRender";
+    // // import * as json from "../static/piano.json";
+
+    // const renderList = require('../js/util/pianoRender');
+    // renderList(pianoList);
+
+    const testList = document.querySelector('.test-list');
+    console.log(testList);
+    //
+    let lis = renderList(pianoList);
+    // let element = document.createElement(lis);
+    testList.insertAdjacentHTML('afterbegin', lis);
+</script>
+</body>
+</html>
