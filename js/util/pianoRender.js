@@ -1,5 +1,5 @@
 // 1. render list and append
-
+// 1.1 test for commit
 let cachedList = [];
 
 function renderList (json, domId, domcument) {
