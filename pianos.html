@@ -122,17 +122,17 @@
 				<div class="content_wrap">
 					<div class="content">
 						<div class="list_products shop_mode_thumbs">
-							<form class="woocommerce-ordering" method="get">
-								<select name="orderby" class="orderby">
-								<option value="menu_order" selected='selected'>Default sorting</option>
-								<option value="popularity">Sort by popularity</option>
-								<option value="rating">Sort by average rating</option>
-								<option value="date">Sort by newness</option>
-								<option value="price">Sort by price: low to high</option>
-								<option value="price-desc">Sort by price: high to low</option>
+<!--							<form class="woocommerce-ordering" method="get">-->
+								<select id='select-filter' name="orderby" class="orderby">
+<!--								<option value="menu_order" >Default sorting</option>-->
+<!--								<option value="popularity">Sort by popularity</option>-->
+<!--								<option value="rating">Sort by average rating</option>-->
+<!--								<option value="date">Sort by newness</option>-->
+								<option value="ascending" id="price-asc" selected='selected'>Sort by price: low to high</option>
+								<option value="descending" id="price-desc">Sort by price: high to low</option>
 								</select>
-								<input type="hidden" name="q" value="/shop/" />
-							</form>
+<!--								<input type="hidden" name="q" value="/shop/" />-->
+<!--							</form>-->
 							<ul class="products" id="piano-list-wrapper">
 
 
@@ -144,28 +144,28 @@
 							
 							<aside id="woocommerce_price_filter-2" class="widget_number_2 widget woocommerce widget_price_filter">
 								<h5 class="widget_title">PRICE FILTER</h5>
-								<form method="get" action="#">
+<!--								<form method="get" action="">-->
 									<div class="price_slider_wrapper">
-										<div class="price_slider" style="display:none;"></div>
+										<div id="slider-filter" class="price_slider" style="display:none;"></div>
 										<div class="price_slider_amount">
-											<input type="text" id="min_price" name="min_price" value="" data-min="99" placeholder="Min price" />
-											<input type="text" id="max_price" name="max_price" value="" data-max="999" placeholder="Max price" />
-											<button type="submit" class="button">Filter</button>
+											<input type="text" id="min_price" name="min_price" value="" data-min="100" placeholder="Min price" />
+											<input type="text" id="max_price" name="max_price" value="" data-max="2000" placeholder="Max price" />
+<!--											<button class="button">Filter</button>-->
 											<div class="price_label" style="display:none;">
 												Price: <span class="from"></span> &mdash; <span class="to"></span>
 											</div>
 											<div class="clear"></div>
 										</div>
 									</div>
-								</form>
+<!--								</form>-->
 							</aside><aside id="woocommerce_product_categories-2" class="widget_number_3 widget woocommerce widget_product_categories">
 								<h5 class="widget_title">CATEGORIES</h5>
 								<ul class="product-categories">
-									<li class="cat-item"><a href="#">Steinway & Sons</a></li>
-									<li class="cat-item"><a href="#">Blüthner</a></li>
-									<li class="cat-item"><a href="#">Other Euro Brands</a></li>
-									<li class="cat-item"><a href="#">YAMAHA</a></li>
-									<li class="cat-item"><a href="#">OHHASHI</a></li>
+									<li class="cat-item"><a href="#" class="brand-anchor" id="steinway-anchor">Steinway & Sons</a></li>
+									<li class="cat-item"><a href="#" class="brand-anchor" id="bluthner-anchor">Blüthner</a></li>
+									<li class="cat-item"><a href="#" class="brand-anchor" id="other-anchor">Other Euro Brands</a></li>
+									<li class="cat-item"><a href="#" class="brand-anchor" id="yamaha-anchor">YAMAHA</a></li>
+									<li class="cat-item"><a href="#" class="brand-anchor" id="ohhashi-anchor">OHHASHI</a></li>
 								</ul>
 							</aside>
 						</div>
@@ -207,6 +207,11 @@
 	<script type='text/javascript' src='js/custom/custom.js'></script>
 	<script>
 		renderList(pianosList, "#piano-list-wrapper", document);
+		sortList(document, 'price', 'select-filter');
+		filterList(pianosList, document, 'price', 'slider-filter');
+		filterList(pianosList, document, 'brand', '');
+
+
 	</script>
 
 </body>
