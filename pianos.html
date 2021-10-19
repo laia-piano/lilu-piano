@@ -17,8 +17,7 @@
 	<link rel='stylesheet' id='melodyschool-plugin.woocommerce-style-css' href='css/plugin.woocommerce.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='melodyschool-custom-style-css' href='css/custom.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='melodyschool-responsive-style-css' href='css/responsive.css' type='text/css' media='all' />
-	<script src="../js/util/pianoRender.js"></script>
-	<script src="../static/piano.js"></script>
+
 </head>
 <body class="archive post-type-archive post-type-archive-product woocommerce woocommerce-page melodyschool_body body_style_wide body_filled article_style_stretch layout_excerpt template_excerpt scheme_original top_panel_show top_panel_above sidebar_show sidebar_left sidebar_outer_hide vc_responsive">
 	<a id="toc_home" class="sc_anchor" title="Home" data-description="&lt;i&gt;Return to Home&lt;/i&gt; - &lt;br&gt;navigate to home page of the site" data-icon="icon-home" data-separator="yes"></a>
@@ -143,14 +142,16 @@
 						<div class="sidebar_inner widget_area_inner">
 							
 							<aside id="woocommerce_price_filter-2" class="widget_number_2 widget woocommerce widget_price_filter">
-								<h5 class="widget_title">PRICE FILTER</h5>
+								<h5 class="widget_title">
+									PRICE FILTER</h5>
 <!--								<form method="get" action="">-->
 									<div class="price_slider_wrapper">
 										<div id="slider-filter" class="price_slider" style="display:none;"></div>
 										<div class="price_slider_amount">
 											<input type="text" id="min_price" name="min_price" value="" data-min="100" placeholder="Min price" />
-											<input type="text" id="max_price" name="max_price" value="" data-max="2000" placeholder="Max price" />
-<!--											<button class="button">Filter</button>-->
+											<input type="text" id="max_price" name="max_price" value="" data-max="200000" placeholder="Max price" />
+											<button class="button" id="price-filter-reset-button" style="margin-right: 50%">Reset</button>
+											<button class="button" id="price-filter-confirm-button">Filter</button>
 											<div class="price_label" style="display:none;">
 												Price: <span class="from"></span> &mdash; <span class="to"></span>
 											</div>
@@ -205,13 +206,13 @@
 	<script type='text/javascript' src='js/vendor/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js'></script>
 	<script type='text/javascript' src='js/vendor/plugins/woocommerce/assets/js/frontend/price-slider.min.js'></script>
 	<script type='text/javascript' src='js/custom/custom.js'></script>
+	<script src="../js/util/pianoRender.js"></script>
 	<script>
 		renderList(pianosList, "#piano-list-wrapper", document);
 		sortList(document, 'price', 'select-filter');
-		filterList(pianosList, document, 'price', 'slider-filter');
-		filterList(pianosList, document, 'brand', '');
-
-
+		filterList(pianosList, document, 'price');
+		filterList(pianosList, document, 'brand');
+		resetFilter(document);
 	</script>
 
 </body>

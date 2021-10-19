@@ -1,3 +1,12 @@
+let constant = {
+    pianoRender: {
+        sortDir: "low_to_high",
+        priceMax: "200000",
+        priceMin: "0",
+        currentBrand: "all",
+
+    }
+};
 const pianosList = [
     {
         "uri": "images/product-1-300x300.jpg",
