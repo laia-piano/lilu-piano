@@ -14,7 +14,7 @@ function renderList (json, domId, domcument) {
 
     let component = '';
     json.forEach(piano => {
-        const {uri, modelName, price, brand} = piano;
+        const {uri, modelName, price, brand,link} = piano;
         component += `
                     <li class="product type-product has-post-thumbnail column-1_3">
                       <div class="post_item_wrap">
@@ -25,10 +25,10 @@ function renderList (json, domId, domcument) {
                           </div>
                         </div>
                         <div class="post_content">
-                          <h3><a href="product.html">${modelName} - ${brand}</a></h3>
+                          <h3><a href="${link}">${brand} - ${modelName}</a></h3>
                           <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>
                           </span>
-                          <a rel="nofollow" href="product.html" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
+                          <a rel="nofollow" href="${link}" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
                       </div>
                     </li>
 `;
@@ -63,7 +63,7 @@ function filterList(json, document, filterBy, id) {
     let elem = document.getElementById(id);
     let filteredList = [];
 
-    if (filterBy == 'price') {
+    if (filterBy === 'price') {
         elem.onmousemove = function (evt) {
             console.log(evt);
 
@@ -82,7 +82,7 @@ function filterList(json, document, filterBy, id) {
         };
     }
 
-    if (filterBy == 'brand') {
+    if (filterBy === 'brand') {
         let elems = document.getElementsByClassName('brand-anchor');
 
         console.log(elems);
@@ -99,11 +99,11 @@ function filterList(json, document, filterBy, id) {
                 // console.log(elem.innerHTML);
                 filteredList = json.filter(piano => {
                     console.log('\t', piano[filterBy], elem.innerText);
-                    return piano[filterBy].toLowerCase() == elem.innerText.toLowerCase();
+                    return piano[filterBy].toLowerCase() === elem.innerText.toLowerCase();
                 });
 
                 // for (j of json) {
-                //     if (j[filterBy].toLowerCase() == elem.innerText.toLowerCase()) {
+                //     if (j[filterBy].toLowerCase() === elem.innerText.toLowerCase()) {
                 //         filteredList = [...filteredList, j];
                 //     }
                 // }
@@ -123,11 +123,11 @@ function filterList(json, document, filterBy, id) {
         //         // console.log(elem.innerHTML);
         //         filteredList = json.filter(piano => {
         //             console.log('\t', piano[filterBy], elem.innerText);
-        //             return piano[filterBy].toLowerCase() == elem.innerText.toLowerCase();
+        //             return piano[filterBy].toLowerCase() === elem.innerText.toLowerCase();
         //         });
         //
         //         // for (j of json) {
-        //         //     if (j[filterBy].toLowerCase() == elem.innerText.toLowerCase()) {
+        //         //     if (j[filterBy].toLowerCase() === elem.innerText.toLowerCase()) {
         //         //         filteredList = [...filteredList, j];
         //         //     }
         //         // }
@@ -149,7 +149,7 @@ function _decider(json, sortBy, direction) {
         return;
     }
 
-    if (direction == 'ascending') {
+    if (direction === 'ascending') {
         sorted = json.sort(function (a, b) {
             if (a[sortBy] > b[sortBy]) {
                 return 1;
@@ -161,7 +161,7 @@ function _decider(json, sortBy, direction) {
         });
     }
 
-    if (direction == 'descending') {
+    if (direction === 'descending') {
         sorted = json.sort(function (a, b) {
             if (a[sortBy] < b[sortBy]) {
                 return 1;
