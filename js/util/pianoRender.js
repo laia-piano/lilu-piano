@@ -6,21 +6,20 @@ let cachedList = [];
 let currentBrand = '';
 let currentPriceMax = 200000;
 let currentPriceMin = 0;
-let sortDir = 'ascending';
+let sortDir = 'descending';
 
 function renderList (json, domId, domcument) {
-    let renderingList = currentBrand === '' ? json : cachedList;
+    let renderingList = json;
 
     const node = domcument.querySelector("#piano-list-wrapper");
     node.innerHTML = "";
-    console.log(renderingList);
-    cachedList = renderingList;
+    console.log('render list', renderingList);
 
     if (!renderingList) {
         return;
     }
 
-    renderingList = _decider(renderingList, 'price', sortDir)
+    renderingList = _sortDecider(renderingList, 'price', sortDir)
 
     let component = '';
     renderingList.forEach(piano => {
@@ -49,13 +48,11 @@ function renderList (json, domId, domcument) {
     return component;
 }
 
-// renderList(json);
-
 // 2. sorting function
 //      - sort by price
 //      - sort by date
 //      -
-function sortList(document, sortBy, id) {
+function addSortListener(document, sortBy, id) {
     let elem = document.getElementById(id);
     // console.log(elem);
     elem.addEventListener('change', function (evt) {
@@ -63,86 +60,80 @@ function sortList(document, sortBy, id) {
 
         sortDir = direction;
 
-        let sortedJson = _decider(cachedList, sortBy, direction);
+        let sortedJson = _sortDecider(cachedList, sortBy, direction);
         return renderList(sortedJson, '#piano-list-wrapper', document);
     });
-
 }
 
-function filterList(json, document, filterBy) {
-    let filteredList = [];
+function addFilterListener(json, document) {
 
-    if (filterBy === 'price') {
-        const confirmButton = document.querySelector('#price-filter-confirm-button');
+    const filterButton = document.querySelector('#price-filter-confirm-button');
 
-        confirmButton.onclick = function (evt) {
-            console.log(evt);
+    filterButton.onclick = function (evt) {
+        let filteredList = [];
 
-            let r = /\d+/;
+        console.log(evt);
 
-            let from = document.querySelector('span.from').innerHTML.match(r)[0];
-            let to = document.querySelector('span.to').innerHTML.match(r)[0];
+        let r = /\d+/;
 
-            // console.log(from);
-            // console.log(to);
+        let from = document.querySelector('span.from').innerHTML.match(r)[0];
+        let to = document.querySelector('span.to').innerHTML.match(r)[0];
 
-            currentPriceMax = Number.parseInt(to);
-            currentPriceMin = Number.parseInt(from);
+        currentPriceMax = Number.parseInt(to);
+        currentPriceMin = Number.parseInt(from);
 
-            console.log(currentPriceMin);
-            console.log(currentPriceMax);
+        console.log(currentPriceMin);
+        console.log(currentPriceMax);
+        cachedList = filteredList;
 
-            // if currentBrand = '' -> render all
-            // if currentBrand = 'xxx' -> render xxx
-            filteredList = (currentBrand === '' ? json : cachedList).filter(piano => piano[filterBy] >= currentPriceMin
-                                                                                && piano[filterBy] <= currentPriceMax);
-            cachedList = filteredList;
-            return renderList(filteredList, '#piano-list-wrapper', document);
-
-        };
-    }
-
-    if (filterBy === 'brand') {
-        let elems = document.getElementsByClassName('brand-anchor');
-
-        if (!elems) {
-            return;
+        console.log('evt: ', evt, currentBrand);
+        if (currentBrand !== '') {
+            filteredList = _filterWithPrice(_filterWithBrand(pianosList));
+        } else {
+            filteredList = _filterWithPrice(pianosList);
         }
+        return renderList(filteredList, '#piano-list-wrapper', document);
+    };
 
-        [...elems].forEach(elem => {
-            elem.onclick = function (evt) {
-                console.log('currentbrand-old:' + currentBrand);
-                evt.preventDefault();
+    let brandLinks = document.getElementsByClassName('brand-anchor');
 
-                currentBrand = elem.innerText.toLowerCase();
-                // filteredList = json.filter(piano => {
-                //     console.log('\t', piano[filterBy], elem.innerText);
-                //     return piano[filterBy].toLowerCase() === elem.innerText.toLowerCase();
-                // });
-
-                filteredList = filterWithBrands(elem, json, currentBrand)
-                console.log(filteredList, 'filterList');
-                filteredList = filteredList.filter(piano => piano['price'] >= currentPriceMin && piano['price'] <= currentPriceMax);
-
-                console.log(filteredList);
-                cachedList = filteredList;
-                console.log('currentbrand-new:' + currentBrand);
-                return renderList(_decider(filteredList, 'price', sortDir), '#piano-list-wrapper', document);
-
-            }
-        });
+    if (!brandLinks) {
+        return;
     }
+
+    [...brandLinks].forEach(brandLink => {
+        brandLink.onclick = function (evt) {
+            let filteredList = [];
+
+            console.log(brandLink);
+            console.log('currentbrand-old:' + currentBrand);
+            evt.preventDefault();
+
+            currentBrand = brandLink.innerText.toLowerCase();
+
+            cachedList = filteredList;
+            console.log('currentbrand-new:' + currentBrand);
+            if (currentBrand !== '') {
+                filteredList = _filterWithPrice(_filterWithBrand(pianosList));
+            } else {
+                filteredList = _filterWithPrice(pianosList);
+            }
+
+            console.log('brand filter' , filteredList);
+            return renderList(filteredList, '#piano-list-wrapper', document);
+        }
+    });
 }
 
-function filterWithBrands(elem, pianoList, brand) {
-    let filteredBrandList;
+function _filterWithPrice(json) {
+    return json.filter(piano => piano['price'] >= currentPriceMin && piano['price'] <= currentPriceMax)
 
-    filteredBrandList = pianoList.filter(piano => {
-        console.log('\t', brand, elem.innerText);
-        return piano.brand.toLowerCase() === elem.innerText.toLowerCase();
+}
+
+function _filterWithBrand(json) {
+    return json.filter(piano => {
+        return piano.brand.toLowerCase() === currentBrand.toLowerCase();
     });
-
-    return filteredBrandList;
 }
 
 function resetFilter(document) {
@@ -153,7 +144,7 @@ function resetFilter(document) {
     }
 }
 
-function _decider(json, sortBy, direction) {
+function _sortDecider(json, sortBy, direction) {
     let sorted;
     if (!json) {
         return;
@@ -183,8 +174,4 @@ function _decider(json, sortBy, direction) {
         });
     }
     return sorted;
-}
-
-function test(evt) {
-    console.log(evt);
 }

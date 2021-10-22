@@ -127,8 +127,8 @@
 <!--								<option value="popularity">Sort by popularity</option>-->
 <!--								<option value="rating">Sort by average rating</option>-->
 <!--								<option value="date">Sort by newness</option>-->
-								<option value="ascending" id="price-asc" selected='selected'>Sort by price: low to high</option>
-								<option value="descending" id="price-desc">Sort by price: high to low</option>
+								<option value="descending" id="price-desc" selected='selected'>Sort by price: high to low</option>
+									<option value="ascending" id="price-asc">Sort by price: low to high</option>
 								</select>
 <!--								<input type="hidden" name="q" value="/shop/" />-->
 <!--							</form>-->
@@ -209,9 +209,9 @@
 	<script src="../js/util/pianoRender.js"></script>
 	<script>
 		renderList(pianosList, "#piano-list-wrapper", document);
-		sortList(document, 'price', 'select-filter');
-		filterList(pianosList, document, 'price');
-		filterList(pianosList, document, 'brand');
+		addSortListener(document, 'price', 'select-filter');
+		addFilterListener(pianosList, document, 'price');
+		addFilterListener(pianosList, document, 'brand');
 		resetFilter(document);
 	</script>
 

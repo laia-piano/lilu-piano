@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
     layout: "cobbles",
     forceFullWidth: "off",
     lazyLoad: "off",
-    row: 3,
+    row: 20,
     loadMoreAjaxToken: "e7b1f11afa",
     loadMoreAjaxUrl: "http://melody.ancorathemes.com/wp-admin/admin-ajax.php",
     loadMoreAjaxAction: "Essential_Grid_Front_request_ajax",
@@ -106,7 +106,7 @@ jQuery(document).ready(function() {
     ajaxCloseInner: "false",
     ajaxCloseStyle: "light",
     ajaxClosePosition: "tr",
-    space: 15,
+    space: 10,
     pageAnimation: "fade",
     paginationScrollToTop: "off",
     spinner: "spinner0",
@@ -118,7 +118,7 @@ jQuery(document).ready(function() {
     showDropFilter: "hover",
     filterGroupClass: "esg-fgc-3",
     googleFonts: ['Open+Sans:300,400,600,700,800', 'Raleway:100,200,300,400,500,600,700,800,900', 'Droid+Serif:400,700'],
-    aspectratio: "4:3",
+    aspectratio: "16:9",
     responsiveEntries: [{
         width: 1400,
         amount: 3
