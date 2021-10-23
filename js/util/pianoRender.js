@@ -54,13 +54,12 @@ function renderList (json, domId, domcument) {
 //      -
 function addSortListener(document, sortBy, id) {
     let elem = document.getElementById(id);
-    // console.log(elem);
     elem.addEventListener('change', function (evt) {
         let direction = evt.target.value;
 
         sortDir = direction;
 
-        let sortedJson = _sortDecider(cachedList, sortBy, direction);
+        let sortedJson = _sortDecider(cachedList.length === 0 ? pianosList : cachedList, sortBy, direction);
         return renderList(sortedJson, '#piano-list-wrapper', document);
     });
 }
