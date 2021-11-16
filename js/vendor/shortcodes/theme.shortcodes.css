@@ -3792,11 +3792,11 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_medium, body.si
 
 .sc_services_style_services-2 .sc_icon, .sc_services_style_services-2.sc_services_type_images .sc_services_item_featured {
     float: left;
-    margin-right: 2.2857em;
+    margin-right: 1.2857em;
 }
 
 .sc_services_style_services-2.sc_services_type_images .sc_services_item_featured {
-    width: 31.625%;
+    width: 23.5%;
     min-height: 4em;
 }
 

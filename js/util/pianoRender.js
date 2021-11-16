@@ -1,4 +1,4 @@
-document.write('<script src="../../static/piano.js" type="text/javascript"></script>');
+document.write('<script src="static/piano.js" type="text/javascript"></script>');
 
 // 1. render list and append
 // 1.1 test for commit
@@ -29,15 +29,15 @@ function renderList (json, domId, domcument) {
                       <div class="post_item_wrap">
                         <div class="post_featured">
                           <div class="post_thumb">
-                            <a class="hover_icon hover_icon_link" href="${link}">
+                            <a class="hover_icon hover_icon_link" href="${link}" target="_blank">
                               <img width="300" height="300" src="${uri}" alt="product-7" title="product-7" /> </a>
                           </div>
                         </div>
                         <div class="post_content">
-                          <h3><a href="${link}">${brand} - ${modelName}</a></h3>
+                          <h3>${brand} - ${modelName}</a></h3>
                           <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>
                           </span>
-                          <a rel="nofollow" href="${link}" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
+                          <a rel="nofollow" href="${link}" target="_blank" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
                       </div>
                     </li>
 `;

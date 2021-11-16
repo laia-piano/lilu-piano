@@ -74,7 +74,7 @@ if ("cobbles" == "even") {
   var cwidth = container.width(),
     ar = "4:3",
     gbfc = eggbfc(jQuery(window).width(), "id"),
-    row = 3;
+    row = 20;
   ar = ar.split(":");
   aratio = parseInt(ar[0], 0) / parseInt(ar[1], 0);
   coh = cwidth / aratio;
@@ -118,7 +118,7 @@ jQuery(document).ready(function() {
     showDropFilter: "hover",
     filterGroupClass: "esg-fgc-3",
     googleFonts: ['Open+Sans:300,400,600,700,800', 'Raleway:100,200,300,400,500,600,700,800,900', 'Droid+Serif:400,700'],
-    aspectratio: "16:9",
+    aspectratio: "4:3",
     responsiveEntries: [{
         width: 1400,
         amount: 3

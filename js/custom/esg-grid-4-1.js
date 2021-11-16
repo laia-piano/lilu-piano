@@ -72,9 +72,9 @@ if ("even" == "even") {
   var coh = 0,
     container = jQuery("#esg-grid-4-1");
   var cwidth = container.width(),
-    ar = "1:1",
+    ar = "4:3",
     gbfc = eggbfc(jQuery(window).width(), "id"),
-    row = 1;
+    row = 4;
   ar = ar.split(":");
   aratio = parseInt(ar[0], 0) / parseInt(ar[1], 0);
   coh = cwidth / aratio;
@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
     layout: "even",
     forceFullWidth: "off",
     lazyLoad: "off",
-    row: 1,
+    row: 4,
     loadMoreAjaxToken: "e7b1f11afa",
     loadMoreAjaxUrl: "http://melody.ancorathemes.com/wp-admin/admin-ajax.php",
     loadMoreAjaxAction: "Essential_Grid_Front_request_ajax",
@@ -119,7 +119,7 @@ jQuery(document).ready(function() {
     showDropFilter: "hover",
     filterGroupClass: "esg-fgc-4",
     googleFonts: ['Open+Sans:300,400,600,700,800', 'Raleway:100,200,300,400,500,600,700,800,900', 'Droid+Serif:400,700'],
-    aspectratio: "1:1",
+    aspectratio: "4:3",
     responsiveEntries: [{
         width: 1400,
         amount: 7
