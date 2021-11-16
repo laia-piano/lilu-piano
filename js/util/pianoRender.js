@@ -19,7 +19,8 @@ function renderList (json, domId, domcument) {
         return;
     }
 
-    renderingList = _sortDecider(renderingList, 'price', sortDir)
+    renderingList = _sortDecider(renderingList, 'price', sortDir);
+    cachedList = renderingList;
 
     let component = '';
     renderingList.forEach(piano => {
@@ -60,6 +61,8 @@ function addSortListener(document, sortBy, id) {
         sortDir = direction;
 
         let sortedJson = _sortDecider(cachedList.length === 0 ? pianosList : cachedList, sortBy, direction);
+        cachedList = sortedJson;
+
         return renderList(sortedJson, '#piano-list-wrapper', document);
     });
 }
