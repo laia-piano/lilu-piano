@@ -1782,12 +1782,12 @@ body:not(.top_panel_fixed) .top_panel_position_over.top_panel_wrap_inner, body:n
 
 .top_panel_top_contact_area {
     float: left;
-    margin-top: 0.5em;
+    margin-top: 0.3em;
 }
 
 .top_panel_top_open_hours {
     float: right;
-    margin-top: 0.5em;
+    margin-top: 0.3em;
     margin-left: 3em;
 }
 
