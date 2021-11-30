@@ -1,4 +1,9 @@
-document.write('<script src="static/piano.js" type="text/javascript"></script>');
+function init(cb) {
+    document.write('<script src="static/piano.js" type="text/javascript"></script>');
+    return cb();
+};
+
+init(() => {});
 
 // 1. render list and append
 // 1.1 test for commit
@@ -7,11 +12,31 @@ let currentBrand = '';
 let currentPriceMax = 200000;
 let currentPriceMin = 0;
 let sortDir = 'descending';
+let brands = new Set();
 
-function renderList (json, domId, domcument) {
+function getAllBrand(json) {
+    brands = new Set(json.map(piano => piano["brand"]));
+}
+
+function renderBrands(domId, document) {
+    console.log(brands);
+
+    const node = document.querySelector(domId);
+
+    let component = '';
+    brands.forEach(brand => {
+        component += `
+        <li class="cat-item"><a href="#" class="brand-anchor" id="${brand.toLowerCase()}-anchor">${brand}</a></li>
+        `
+    });
+
+    node.insertAdjacentHTML('afterbegin', component);
+}
+
+function renderList (json, domId, document) {
     let renderingList = json;
 
-    const node = domcument.querySelector("#piano-list-wrapper");
+    const node = document.querySelector("#piano-list-wrapper");
     node.innerHTML = "";
     console.log('render list', renderingList);
 
@@ -175,5 +200,6 @@ function _sortDecider(json, sortBy, direction) {
             }
         });
     }
+
     return sorted;
 }
