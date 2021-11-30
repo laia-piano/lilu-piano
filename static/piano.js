@@ -11,6 +11,7 @@ const pianosList = [
 
 	// STEINWAY & SONS
     {
+		"serial":300183,
         "uri": "images/product/ste300183/1.jpg",
         "price": 125000,
         "date": "2021-8-13",
@@ -19,6 +20,7 @@ const pianosList = [
         "link" : "ste300183.html"
     },
     {
+		"serial":93144,
         "uri": "images/product/ste93144/1.jpg",
         "price": 128000,
         "date": "2021-8-13",
@@ -27,6 +29,7 @@ const pianosList = [
         "link" : "ste93144.html"
     },
 	{
+		"serial":261296,
         "uri": "images/product/ste261296/1.jpg",
         "price": 78000,
         "date": "2021-8-13",
@@ -35,6 +38,7 @@ const pianosList = [
         "link" : "ste261296.html"
     },
 	{
+		"serial":369476,
         "uri": "images/product/ste369476/1.jpg",
         "price": 83000,
         "date": "2021-8-13",
@@ -43,6 +47,7 @@ const pianosList = [
         "link" : "ste369476.html"
     },
 	{
+		"serial":193751,
         "uri": "images/product/ste193751/1.jpg",
         "price": 78000,
         "date": "2021-8-13",
@@ -51,6 +56,7 @@ const pianosList = [
         "link" : "ste193751.html"
     },
 	{
+		"serial":285121,
         "uri": "images/product/ste285121/1.jpg",
         "price": 78000,
         "date": "2021-8-13",
@@ -61,7 +67,9 @@ const pianosList = [
 	
 	// Blüthner
 	
-    {
+    
+	{
+		"serial":111378,
         "uri": "images/product/blu111378/2.jpg",
         "price": 88800,
         "date": "2021-8-13",
@@ -73,6 +81,7 @@ const pianosList = [
 	// Other Euro Brand
 	
 	{
+		"serial":93956,
         "uri": "images/product/gro93956/1.jpg",
         "price": 140000,
         "date": "2021-8-13",
@@ -84,6 +93,7 @@ const pianosList = [
 	// YAMAHA
 	
     {
+		"serial":5418344,
         "uri": "images/product/yam5418344/1.jpg",
         "price": 12000,
         "date": "2021-8-13",
@@ -92,6 +102,7 @@ const pianosList = [
         "link" : "yam5418344.html"
     },
 	{
+		"serial":5209341,
         "uri": "images/product/yam5209341/1.jpg",
         "price": 10000,
         "date": "2021-8-13",
@@ -100,6 +111,7 @@ const pianosList = [
         "link" : "yam5209341.html"
     },
     {
+		"serial":5249006,
         "uri": "images/product/yam5249006/1.jpg",
         "price": 12000,
         "date": "2021-8-13",
@@ -110,6 +122,7 @@ const pianosList = [
 	
 	// OHHASHI
     {
+		"serial":3054,
         "uri": "images/product/ohh3054/1.jpg",
         "price": 12000,
         "date": "2021-8-13",
@@ -118,6 +131,7 @@ const pianosList = [
         "link" : "ohh3054.html"
     },
 	{
+		"serial":2301,
         "uri": "images/product/ohh2301/1.jpg",
         "price": 12000,
         "date": "2021-8-13",
