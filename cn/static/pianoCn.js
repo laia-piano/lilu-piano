@@ -76,7 +76,7 @@ const pianosList = [
         "link" : "blu111378.html"
     },
 	
-	// Other Euro Brand
+	// Grotrian—Steinweg
 	
 	{
 		"serial":93956,
@@ -84,7 +84,7 @@ const pianosList = [
         "price": 140000,
         "date": "2021-8-13",
         "modelName": "Concerto G-275",
-        "brand": "Grotrian—Steinweg",
+        "brand": "戈特里安-施坦威 Grotrian",
         "link" : "gro93956.html"
     },
 	

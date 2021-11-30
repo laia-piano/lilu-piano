@@ -156,12 +156,7 @@
 <!--								</form>-->
 							</aside><aside id="woocommerce_product_categories-2" class="widget_number_3 widget woocommerce widget_product_categories">
 								<h5 class="widget_title">品牌分类</h5>
-								<ul class="product-categories">
-									<li class="cat-item"><a href="#" class="brand-anchor" id="STEINWAY-anchor">施坦威 STEINWAY & SONS</a></li>
-									<li class="cat-item"><a href="#" class="brand-anchor" id="bluthner-anchor">博兰斯勒 Blüthner</a></li>
-									<li class="cat-item"><a href="#" class="brand-anchor" id="other-anchor">其他欧洲品牌 Other Euro Brands</a></li>
-									<li class="cat-item"><a href="#" class="brand-anchor" id="yamaha-anchor">雅马哈 YAMAHA</a></li>
-									<li class="cat-item"><a href="#" class="brand-anchor" id="ohhashi-anchor">大桥 OHHASHI</a></li>
+								<ul class="product-categories" id="product-categories">
 								</ul>
 							</aside>
 						</div>
@@ -203,11 +198,13 @@
 	<script type='text/javascript' src='../js/custom/custom.js'></script>
 	<script src='js/util/pianoRender.js'></script>
 	<script>
+		resetFilter(document);
 		renderList(pianosList, "#piano-list-wrapper", document);
-		addSortListener(document, 'price', 'select-filter');
+		getAllBrand(pianosList);
+		renderBrands("#product-categories", document);
 		addFilterListener(pianosList, document, 'price');
 		addFilterListener(pianosList, document, 'brand');
-		resetFilter(document);
+		addSortListener(document, 'price', 'select-filter');
 	</script>
 
 <script type='text/javascript' src='js/util/translate.js'></script>
