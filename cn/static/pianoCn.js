@@ -12,7 +12,7 @@ const pianosList = [
 	// 施坦威 STEINWAY & SONS
     {
 		"serial":300183,
-        "uri": "../images/product/ste300183/1.jpg",
+        "uri": "../images/product/ste300183/0.jpg",
         "price": 125000,
         "date": "2021-8-13",
         "modelName": "M170 安妮女王",
@@ -21,7 +21,7 @@ const pianosList = [
     },
     {
 		"serial":93144,
-        "uri": "../images/product/ste93144/1.jpg",
+        "uri": "../images/product/ste93144/0.jpg",
         "price": 128000,
         "date": "2021-8-13",
         "modelName": "A188 路易十六",
@@ -76,11 +76,11 @@ const pianosList = [
         "link" : "blu111378.html"
     },
 	
-	// Grotrian—Steinweg
+	// 戈特里安 Grotrian—Steinweg
 	
 	{
 		"serial":93956,
-        "uri": "../images/product/gro93956/1.jpg",
+        "uri": "../images/product/gro93956/0.jpg",
         "price": 140000,
         "date": "2021-8-13",
         "modelName": "Concerto G-275",
