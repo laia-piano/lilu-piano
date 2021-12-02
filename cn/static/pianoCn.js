@@ -29,6 +29,7 @@ const pianosList = [
         "link" : "ste93144.html"
     },
 	{
+		"serial":261296,
         "uri": "../images/product/ste261296/1.jpg",
         "price": 78000,
         "date": "2021-8-13",
