@@ -83,7 +83,7 @@ const pianosList = [
 	{
 		"serial":93956,
         "uri": "images/product/gro93956/0.jpg",
-        "price": 140000,
+        "price": 115000,
         "date": "2021-8-13",
         "modelName": "Concerto G-275",
         "brand": "Grotrian—Steinweg",
@@ -95,7 +95,7 @@ const pianosList = [
     {
 		"serial":5418344,
         "uri": "images/product/yam5418344/1.jpg",
-        "price": 12000,
+        "price": 8000,
         "date": "2021-8-13",
         "modelName": "HQ300B",
         "brand": "YAMAHA",
@@ -104,7 +104,7 @@ const pianosList = [
 	{
 		"serial":5209341,
         "uri": "images/product/yam5209341/1.jpg",
-        "price": 10000,
+        "price": 7500,
         "date": "2021-8-13",
         "modelName": "HQ100",
         "brand": "YAMAHA",
@@ -113,7 +113,7 @@ const pianosList = [
     {
 		"serial":5249006,
         "uri": "images/product/yam5249006/1.jpg",
-        "price": 12000,
+        "price": 8000,
         "date": "2021-8-13",
         "modelName": "HQ300",
         "brand": "YAMAHA",
