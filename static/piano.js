@@ -30,7 +30,7 @@ const pianosList = [
     },
 	{
 		"serial":261296,
-        "uri": "images/product/ste261296/1.jpg",
+        "uri": "images/product/ste261296/0.jpg",
         "price": 78000,
         "date": "2021-8-13",
         "modelName": "M170",
@@ -39,7 +39,7 @@ const pianosList = [
     },
 	{
 		"serial":369476,
-        "uri": "images/product/ste369476/1.jpg",
+        "uri": "images/product/ste369476/0.jpg",
         "price": 83000,
         "date": "2021-8-13",
         "modelName": "L180",
@@ -57,7 +57,7 @@ const pianosList = [
     },
 	{
 		"serial":285121,
-        "uri": "images/product/ste285121/1.jpg",
+        "uri": "images/product/ste285121/0.jpg",
         "price": 78000,
         "date": "2021-8-13",
         "modelName": "M170",
@@ -70,7 +70,7 @@ const pianosList = [
     
 	{
 		"serial":111378,
-        "uri": "images/product/blu111378/2.jpg",
+        "uri": "images/product/blu111378/0.jpg",
         "price": 88800,
         "date": "2021-8-13",
         "modelName": "Mod.10",
