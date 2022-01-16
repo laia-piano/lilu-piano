@@ -74,7 +74,7 @@ if ("cobbles" == "even") {
   var cwidth = container.width(),
     ar = "4:3",
     gbfc = eggbfc(jQuery(window).width(), "id"),
-    row = 20;
+    row = 40;
   ar = ar.split(":");
   aratio = parseInt(ar[0], 0) / parseInt(ar[1], 0);
   coh = cwidth / aratio;
@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
     layout: "cobbles",
     forceFullWidth: "off",
     lazyLoad: "off",
-    row: 20,
+    row: 40,
     loadMoreAjaxToken: "e7b1f11afa",
     loadMoreAjaxUrl: "http://melody.ancorathemes.com/wp-admin/admin-ajax.php",
     loadMoreAjaxAction: "Essential_Grid_Front_request_ajax",
