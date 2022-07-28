@@ -2199,7 +2199,12 @@ body:not(.top_panel_fixed) .top_panel_inner_style_5 .menu_main_nav>li.bordered {
 }
 
 .top_panel_wrap .logo_main {
-    max-height: 100px;
+    max-height: 57px;
+    width: auto;
+}
+
+.top_panel_wrap .logo_index {
+    max-height: 150px;
     width: auto;
 }
 
@@ -2225,6 +2230,9 @@ body:not(.top_panel_fixed) .top_panel_inner_style_5 .menu_main_nav>li.bordered {
 .top_panel_fixed .top_panel_wrap .logo_main {
     display: none;
 }
+.top_panel_fixed .top_panel_wrap .logo_index {
+    display: none;
+}
 
 .top_panel_wrap .logo_fixed {
     display: none;
@@ -2232,6 +2240,7 @@ body:not(.top_panel_fixed) .top_panel_inner_style_5 .menu_main_nav>li.bordered {
 }
 
 .top_panel_fixed .top_panel_wrap .logo_fixed {
+    max-width: 169px;
     display: block;
 }
 
