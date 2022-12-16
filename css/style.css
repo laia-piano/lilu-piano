@@ -690,19 +690,19 @@ label.required:after {
 }
 
 .column-1_2, .column-2_4, .column-3_6, .column-4_8, .column-5_10, .column-6_12 {
-    width: 50%;
+    width: 49.5%;
 }
 
 .column-1_3, .column-2_6, .column-3_9, .column-4_12 {
-    width: 33.33333333%;
+    width: 33%;
 }
 
 .column-2_3, .column-4_6, .column-8_12 {
-    width: 66.66666667%;
+    width: 66%;
 }
 
 .column-1_4, .column-2_8, .column-3_12 {
-    width: 25%;
+    width: 24%;
 }
 
 .column-3_4, .column-6_8, .column-9_12 {
