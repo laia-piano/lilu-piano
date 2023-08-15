@@ -203,3 +203,35 @@ function _sortDecider(json, sortBy, direction) {
 
     return sorted;
 }
+
+function renderPianoDetail(json, domId, document) {
+
+    let template = `
+                  <h1 itemprop="name" class="product_title entry-title">${json.brandName}</h1>
+                  <h4 style="color: #59c6bc">${json.model}</h4>
+                  <h4 style="color: #59c6bc">${json.serialNumber}</h4>
+                  <div itemprop="offers" itemtype="http://schema.org/Offer">
+                    <p class="price">
+                      <span class="woocommerce-Price-amount amount">
+                        <span class="woocommerce-Price-currencySymbol">S&#36;</span>7500
+                      </span>
+                    </p>
+                  </div>
+                  <div itemprop="description" style="text-align: justify">
+                    <div>
+                        ${json.description}
+                    </div>
+                  </div>
+                  <form class="cart" method="post" enctype='multipart/form-data'>
+                    <input type="hidden" name="add-to-cart" value="287" />
+                    <a href="contact.html" type="submit" class="single_add_to_cart_button button alt">Contact Us to
+                      View</a>
+                  </form>
+                  <div class="product_meta"> <span class="posted_in">Categories: <a href="#" rel="tag">${json.brandName}</a></span>
+                  </div>
+    
+    `;
+
+    const node = document.getElementById("piano-detail");
+    node.insertAdjacentHTML("afterbegin", template);
+}
