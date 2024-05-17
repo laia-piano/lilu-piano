@@ -49,7 +49,7 @@ function renderList (json, domId, document) {
 
     let component = '';
     renderingList.forEach(piano => {
-        const {uri, modelName, price, brand,link} = piano;
+        const {uri, modelName, price, brand, link} = piano;
         component += `
                     <li class="product type-product has-post-thumbnail column-1_3">
                       <div class="post_item_wrap">
@@ -63,11 +63,10 @@ function renderList (json, domId, document) {
                           <h3>${brand} <br> ${modelName}</h3>
                           <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>
                           </span>
-                          <form action="testRender/testPiano.html" method="GET">
-                                <input type="text" name="link" value="${link}">
+                          <form action="pianos/details.html" method="GET">
+                                <input type="hidden" name="link" value="${link}">
                                 <input type="submit" value="View Details"/ >                         
-                                <a rel="nofollow" target="_blank" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a>  
-                            </form>
+                          </form>
 
                           
                           </div>
