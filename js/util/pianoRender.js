@@ -1,5 +1,5 @@
 function init(cb) {
-    document.write('<script src="static/piano.js" type="text/javascript"></script>');
+    document.write('<script src="../../static/piano.js" type="text/javascript"></script>');
     return cb();
 };
 
@@ -63,7 +63,14 @@ function renderList (json, domId, document) {
                           <h3>${brand} <br> ${modelName}</h3>
                           <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>
                           </span>
-                          <a rel="nofollow" href="${link}" target="_blank" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a> </div>
+                          <form action="testRender/testPiano.html" method="GET">
+                                <input type="text" name="link" value="${link}">
+                                <input type="submit" value="View Details"/ >                         
+                                <a rel="nofollow" target="_blank" class="button product_type_simple add_to_cart_button ajax_add_to_cart">View Detail</a>  
+                            </form>
+
+                          
+                          </div>
                       </div>
                     </li>
 `;

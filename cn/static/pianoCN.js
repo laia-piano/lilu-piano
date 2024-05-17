@@ -1,4 +1,4 @@
-let constant = {
+let constantCN = {
     pianoRender: {
         sortDir: "low_to_high",
         priceMax: "200000",

@@ -1,4 +1,4 @@
-let constant = {
+let constantEng = {
     pianoRender: {
         sortDir: "low_to_high",
         priceMax: "200000",
@@ -7,6 +7,7 @@ let constant = {
 
     }
 };
+
 const pianosList = [
 
 	// STEINWAY & SONS
@@ -26,7 +27,10 @@ const pianosList = [
         "date": "2021-8-13",
         "modelName": "A188 Louis XVI",
         "brand": "STEINWAY & SONS",
-        "link" : "ste93144.html"
+        "link" : "ste93144.html",
+        "imageCount": 41,
+        "videoLink": "https://www.youtube.com/embed/OCnhIDL8yWA",
+        "description": "Model M went on sale in 1911 and the design was finalized in 1918, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades. <br> It was then reconstructed in USA in 2020, where the actions, hammers and other corresponding components such as the strings and consumables were all replaced with those produced by original STEINWAY factory USA. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability."
     },
 	{
 		"serial":261296,
