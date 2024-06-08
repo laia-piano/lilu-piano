@@ -34,8 +34,8 @@ function renderPianoDetails(json, document) {
                                                  alt="product-8"
                                                  title="product-8"/></a> </div>
                         <div class="summary entry-summary">
-                            <h1 itemprop="name" class="product_title entry-title">${json.brand}</h1>
-                            <h4 style="color: #59c6bc">${json.modelName}</h4>
+                            <h1 itemprop="name" class="product_title entry-title">${json.brand} ${json.modelName}</h1>
+                            <h4 style="color: #59c6bc">Made in ${json.origin}</h4>
                             <div itemprop="offers" itemtype="http://schema.org/Offer">
                                 <p class="price"><span class="woocommerce-Price-amount amount"><span
                                         class="woocommerce-Price-currencySymbol">S&#36;</span>${json.price}</span></p>
@@ -46,12 +46,9 @@ function renderPianoDetails(json, document) {
                                     ${json.description}
                                 </p>
                             </div>
-                            <form class="cart" method="post" enctype='multipart/form-data'>
-                                <input type="hidden" name="add-to-cart" value="287"/>
-                                <a href="../contact.html" type="submit" class="single_add_to_cart_button button alt">Contact
-                                    Us to
-                                    View</a>
-                            </form>
+                            <div class="sc_promo_button sc_item_button">
+								<a href="https://wa.me/6581667290"><img src="../whatsapp2.png"><img></a>
+							</div>
                         </div>    
                         <div class="clear"></div>
             `;
@@ -75,7 +72,7 @@ function renderPianoDetails(json, document) {
                                             </li>
     `
 
-    for (let i = 0; i <= json.imageCount; i ++) {
+    for (let i = 1; i <= json.imageCount; i ++) {
         imageComponent += `
                                             <li class="eg-melody-wrapper">
                                                 <div class="esg-media-cover-wrapper">

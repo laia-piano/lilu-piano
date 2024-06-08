@@ -55,10 +55,8 @@ function renderList (json, domId, document) {
                       <div class="post_item_wrap">
                         <div class="post_featured">
                           <div class="post_thumb">
-                            <a class="hover_icon hover_icon_link" href="${link}" target="_blank">
                               <img width="300" height="300" src="${uri}" alt="product-7" title="product-7" /> </a>
-                          </div>
-                        </div>
+                         </div>
                         <div class="post_content">
                           <h3>${brand} <br> ${modelName}</h3>
                           <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>

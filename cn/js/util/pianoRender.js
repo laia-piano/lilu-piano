@@ -3,7 +3,7 @@ function init(cb) {
     return cb();
 };
 
-init(() => {});
+init(() => { });
 
 // 1. render list and append
 // 1.1 test for commit
@@ -32,7 +32,7 @@ function renderBrands(domId, document) {
 
     node.insertAdjacentHTML('afterbegin', component);
 }
-function renderList (json, domId, domcument) {
+function renderList(json, domId, domcument) {
     let renderingList = json;
 
     const node = domcument.querySelector("#piano-list-wrapper");
@@ -48,22 +48,26 @@ function renderList (json, domId, domcument) {
 
     let component = '';
     renderingList.forEach(piano => {
-        const {uri, modelName, price, brand,link} = piano;
+        const { uri, modelName, price, brand, link } = piano;
         component += `
                     <li class="product type-product has-post-thumbnail column-1_3">
-                      <div class="post_item_wrap">
+                        <div class="post_item_wrap">
                         <div class="post_featured">
-                          <div class="post_thumb">
-                            <a class="hover_icon hover_icon_link" href="${link}" target="_blank">
-                              <img width="300" height="300" src="${uri}" alt="product-7" title="product-7" /> </a>
-                          </div>
+                            <div class="post_thumb">
+                                <img width="300" height="300" src="${uri}" alt="product-7" title="product-7" /> </a>
                         </div>
                         <div class="post_content">
-                          <h3>${brand} <br> ${modelName}</h3>
-                          <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>
-                          </span>
-                          <a rel="nofollow" href="${link}" target="_blank" class="button product_type_simple add_to_cart_button ajax_add_to_cart">查看详细</a> </div>
-                      </div>
+                            <h3>${brand} <br> ${modelName}</h3>
+                            <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>
+                            </span>
+                            <form action="pianos/details.html" method="GET">
+                                <input type="hidden" name="link" value="${link}">
+                                <input type="submit" value="View Details"/ >                         
+                            </form>
+
+                            
+                            </div>
+                        </div>
                     </li>
 `;
     });
@@ -145,7 +149,7 @@ function addFilterListener(json, document) {
                 filteredList = _filterWithPrice(pianosList);
             }
 
-            console.log('brand filter' , filteredList);
+            console.log('brand filter', filteredList);
             return renderList(filteredList, '#piano-list-wrapper', document);
         }
     });
