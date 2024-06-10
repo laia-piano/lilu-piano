@@ -161,7 +161,7 @@ const pianosList = [
         "brand": "YAMAHA",
         "origin": "Japan",
         "link": "yam5013211.html",
-        "imageCount": 15,
+        "imageCount": 16,
         "videoLink": "https://www.youtube.com/embed/oh-ZvDu9zOk?si=-872WQ49RK3K6uQt",
         "description": "Yamaha was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. Yamaha reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The MX/SX models, which include the U10BL and U10A, feature an original factory-installed automatic playing system, comparable to the currently available DU1ENST. We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore."
     },
@@ -176,6 +176,54 @@ const pianosList = [
         "imageCount": 17,
         "videoLink": "https://www.youtube.com/embed/_snCD_dc_Ac?si=cXV3Q5XJ46x4lWtd",
         "description": "Yamaha was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. Yamaha reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The MX3 series, introduced at the same time, featured exclusive models equipped with automatic playing systems, akin to the current DU1ENST with the option of YUS5-grade hammers and wooden finishes (the new piano's price rivals that of the SU7). Yamaha offered over 2,000 high-quality automatic playing tracks exclusively for its SX/MX customers, making it the most cost-effective choice for beginner pianists in Singapore, without comparison."
+    },
+    {
+        "serial": 5312251,
+        "uri": "images/product/yam5312251/0.jpg",
+        "price": 4800,
+        "modelName": "U1 (SX101RBl)",
+        "brand": "YAMAHA",
+        "origin": "Japan",
+        "link": "yam5312251.html",
+        "imageCount": 21,
+        "videoLink": "https://www.youtube.com/embed/_LxXuoKngdo?si=nehm5kjrfJIVH24g",
+        "description": "Yamaha was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. Yamaha reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The MX/SX models, which include the U10BL and U10A, feature an original factory-installed automatic playing system, comparable to the currently available DU1ENST. We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore."
+    },
+    {
+        "serial": 4889393,
+        "uri": "images/product/yam4889393/0.jpg",
+        "price": 6800,
+        "modelName": "UX30A",
+        "brand": "YAMAHA",
+        "origin": "Japan",
+        "link": "yam4889393.html",
+        "imageCount": 19,
+        "videoLink": "https://www.youtube.com/embed/UZNeG0Zt6WM?si=M7jbDXQUFta-Yov_",
+        "description": "The fifth generation UX series from Japan's YAMAHA, featuring true 米 backs, was only available between 1990 and 1997. Due to high manufacturing costs and dwindling stocks of old wood after 1997, along with Japan's economic downturn, 米 back production ceased. Although the UX series was first released in 1975, the first four generations before 1990 featured a three-pillar crossing and were not 米, with significant differences in manufacturing processes, design, and material configuration compared to the later two generations. The playing experience of the true 米 back is much better than the current YUS series on sale. It's an essential collectible for YAMAHA piano enthusiasts."
+    },
+    {
+        "serial": 5066967,
+        "uri": "images/product/yam5066967/0.jpg",
+        "price": 5500,
+        "modelName": "U1 (MX202R)",
+        "brand": "YAMAHA",
+        "origin": "Japan",
+        "link": "yam5066967.html",
+        "imageCount": 20,
+        "videoLink": "https://www.youtube.com/embed/hLqHSBuKzfg?si=3giIC1sFwUTh7Kxx",
+        "description": "Yamaha was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. Yamaha reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The MX/SX models, which include the U10BL and U10A, feature an original factory-installed automatic playing system, comparable to the currently available DU1ENST, coupled with cat paw curved legs, making it highly aesthetic and valuable.We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore."
+    },
+    {
+        "serial": 5009982,
+        "uri": "images/product/yam5009982/0.jpg",
+        "price": 5800,
+        "modelName": "U1 (SX101RWnC)",
+        "brand": "YAMAHA",
+        "origin": "Japan",
+        "link": "yam5009982.html",
+        "imageCount": 21,
+        "videoLink": "https://www.youtube.com/embed/B8Ag-p7WIYo?si=PDCScJqdNO6NtHkM",
+        "description": "Yamaha was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. Yamaha reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The SX series with WnC special appearance is a model exclusively equipped with automatic playing system at the same time as the original U10BL and U10A. It is equivalent to the current DU1ENST model, which is newly available for sale, with an optional solid American walnut composite shell, coupled with cat paw curved legs, making it highly aesthetic and valuable.We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore."
     },
 
     // OHHASHI
