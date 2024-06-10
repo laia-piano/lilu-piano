@@ -58,10 +58,8 @@ function renderList (json, domId, document) {
                               <img width="300" height="300" src="${uri}" alt="product-7" title="product-7" /> </a>
                          </div>
                         <div class="post_content">
-                          <h3 style="high:auto">${brand} ${modelName}</h3>
-                          <h4 style="color: #59c6bc; margin-bottom:0.2em ">${origin}</h4>
-                          <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>
-                          </span>
+                          <h3>${brand} <br> ${modelName}</h3>
+                          <h4 style="color: #59c6bc; line-height:1.6em; margin-bottom:0.4em">${origin} <br> S$${price}</h4>
                           <form action="pianos/details.html" method="GET">
                                 <input type="hidden" name="link" value="${link}">
                                 <input type="submit" value="View Details"/ >                         
