@@ -21,6 +21,7 @@ const pianosList = [
         "link": "ste300183.html",
         "imageCount": 40,
         "videoLink": "https://www.youtube.com/embed/6_PC8M2zIds",
+        "videoLink2": "https://www.youtube.com/embed/6_PC8M2zIds",
         "description": "Before WWII, the Queen Anne was specifically customized for royalties and highly influential figures from all over the world. Model M went on sale in 1911 and the design was finalized in 1918 where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades. <br><br> It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability."
     },
     {
@@ -33,6 +34,7 @@ const pianosList = [
         "link": "ste93144.html",
         "imageCount": 41,
         "videoLink": "https://www.youtube.com/embed/-ppviNhZpPs",
+        "videoLink2": "https://www.youtube.com/embed/6_PC8M2zIds",
         "description": "Before WWII, the Louis XVI was specifically customized for royalties and highly influential figures from all over the world. The design of model A was finalized in 1896, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades.<br><br>It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability."
     },
     {
@@ -225,30 +227,92 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/B8Ag-p7WIYo?si=PDCScJqdNO6NtHkM",
         "description": "Yamaha was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. Yamaha reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The SX series with WnC special appearance is a model exclusively equipped with automatic playing system at the same time as the original U10BL and U10A. It is equivalent to the current DU1ENST model, which is newly available for sale, with an optional solid American walnut composite shell, coupled with cat paw curved legs, making it highly aesthetic and valuable.We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore."
     },
-
-    // OHHASHI
     {
-        "serial": 3054,
-        "uri": "images/product/ohh3054/0.jpg",
-        "price": 12000,
-        "modelName": "No.132",
-        "brand": "OHHASHI",
+        "serial": 4912365,
+        "uri": "images/product/yam4912365/0.jpg",
+        "price": 6000,
+        "modelName": "UX10A",
+        "brand": "YAMAHA",
         "origin": "Japan",
-        "link": "ohh3054.html",
-        "imageCount": 17,
-        "videoLink": "https://www.youtube.com/embed/6II0ZMmTIE0",
-        "description": "This particular piece was made by hand back in 1974 by the artisan, Ohhashi Hataiwa, the incomparable piano maker from the Land of The Rising Sun and the national pride of Japan. It was kept in a perfect condition and has never been retouched. Starting from 1958 to 1995, within the span of 37 years, Ohhashi and his son made a total of 4639 pianos by hand, which was an effective display of the top notch Japanese craftsmanship in Piano making, making it the only Japanese piano that could be placed in the same league as the European luxury brands.<br><br> The first piece of Piano from Ohhashi was born in 1958, and was affixed with a serial number of 1961. Throughout Ohhashi's life, that number never exceeded 4000, making the number of pianos that were personally made by him to be in slight excess of a 2000, and unfortunately, only a handful was properly preserved to be able to make it into the 2nd hand piano market, making his pianos a priceless and precious collectible for hardcore piano fans."
+        "link": "yam4912365.html",
+        "imageCount": 21,
+        "videoLink": "https://www.youtube.com/embed/xEhUFdPvq2E?si=A51C_9Ua0_G79inJ",
+        "description": "The fifth generation UX series from Japan's YAMAHA, featuring true 米 backs, was only available between 1990 and 1997. Due to high manufacturing costs and dwindling stocks of old wood after 1997, along with Japan's economic downturn, 米 back production ceased. Although the UX series was first released in 1975, the first four generations before 1990 featured a three-pillar crossing and were not 米, with significant differences in manufacturing processes, design, and material configuration compared to the later two generations. The playing experience of the true 米 back is much better than the current YUS series on sale. It's an essential collectible for YAMAHA piano enthusiasts."
     },
     {
-        "serial": 2301,
-        "uri": "images/product/ohh2301/0.jpg",
-        "price": 12000,
-        "modelName": "No.132",
-        "brand": "OHHASHI",
+        "serial": 5128074,
+        "uri": "images/product/yam5128074/0.jpg",
+        "price": 13500,
+        "modelName": "WX5AWnC",
+        "brand": "YAMAHA",
         "origin": "Japan",
-        "link": "ohh2301.html",
-        "imageCount": 17,
-        "videoLink": "https://www.youtube.com/embed/mS-k0gPBpAs",
-        "description": "This particular piece was made by hand back in 1966 by the artisan, Ohhashi Hataiwa, the incomparable piano maker from the Land of The Rising Sun and the national pride of Japan. It was kept in a perfect condition and has never been retouched. Starting from 1958 to 1995, within the span of 37 years, Ohhashi and his son made a total of 4639 pianos by hand, which was an effective display of the top notch Japanese craftsmanship in Piano making, making it the only Japanese piano that could be placed in the same league as the European luxury brands.<br><br> The first piece of Piano from Ohhashi was born in 1958, and was affixed with a serial number of 1961. Throughout Ohhashi's life, that number never exceeded 4000, making the number of pianos that were personally made by him to be in slight excess of a 2000, and unfortunately, only a handful was properly preserved to be able to make it into the 2nd hand piano market, making his pianos a priceless and precious collectible for hardcore piano fans."
-    }
+        "link": "yam5128074.html",
+        "imageCount": 18,
+        "videoLink": "https://www.youtube.com/embed/Q0tKV3IGpQU?si=yYUL6ykTFUSKf-oa",
+        "videoLink2": "https://www.youtube.com/embed/AYGuKIVxhrE?si=EydHpVA-1JRXvZN_",
+        "description": "The YAMAHA WX5AWnC, produced during the peak period of Japanese instrument manufacturing from 1990 to 1995, is a true masterpiece. It features an American walnut solid wood outer shell, with a soundboard made from 200-year-old Hokkaido fish-scale pine that has been naturally air-dried for 20 years. The middle pedal is a grand piano selective sustain pedal, and the soft pedal is controlled by a hand lever. It is equipped with top-quality W-grade rosewood hammers, and the bass and mid-range areas feature individual string supports like a grand piano, while the treble and upper mid-range have thicker, reinforced pressure bars. <br><br>This model, with all the top configurations and craftsmanship of Yamaha Japan, is a rare gem. The rice-back design was only produced between 1990 and 1997. Its tone completely surpasses the classic Yamaha U series."
+    },
+    {
+        "serial": 4909810,
+        "uri": "images/product/yam4909810/0.jpg",
+        "price": 6500,
+        "modelName": "U3-Ultra(W3AMhC)",
+        "brand": "YAMAHA",
+        "origin": "Japan",
+        "link": "yam4909810.html",
+        "imageCount": 19,
+        "videoLink": "https://www.youtube.com/embed/_hUf8q7l2_c?si=jGAZAsQgqJ59OEhS",
+        "videoLink2": "https://www.youtube.com/embed/H3vZhNBaa-k?si=xQq7MUijCmZ8ZgD1",
+        "description": "The Yamaha W3AMhC, manufactured in Japan between 1990 and 1994, is an upgraded version of the U3 with a height of 131 cm, as YUS3 today. It features several enhancements compared to the U30A of the same period, including a rosewood-colored mahogany solid wood composite high-gloss finish outer shell, decorative carvings on the top panel, and a cat-foot curved leg design. The hammers are upgraded to Yamaha K-grade redwood, and the soundboard material is more refined than that of the U30A. The selling price for W3AMhC was priced at 870,000円, which was 1.6 times more expensive than the U30BL priced at 580,000円 in Japan."
+    },
+    {
+        "serial": "New C3X",
+        "uri": "images/product/yamC3Xnew/0.jpg",
+        "price": 36000,
+        "modelName": "C3X",
+        "brand": "YAMAHA New Piano",
+        "origin": "Japan",
+        "link": "yamC3Xnew.html",
+        "imageCount": 15,
+        "videoLink": "https://www.youtube.com/embed/DEKNaVEJKUg?si=cLI67g5Ani055AQH",
+        "description": "Yamaha C3X was first launched in October 2012. Yamaha Japan only sells the best quality new pianos in Japan main land. We provide parallel import service for new C1X from the local Japanese store and then deliver it to the customer's home in Singapore. The customer will enjoy not only the extremely high discount but also the better quality and after sale servier with us."
+    },
+    {
+        "serial": "New C1X",
+        "uri": "images/product/yamC1Xnew/0.jpg",
+        "price": 27000,
+        "modelName": "C1X",
+        "brand": "YAMAHA New Piano",
+        "origin": "Japan",
+        "link": "yamC1Xnew.html",
+        "imageCount": 10,
+        "videoLink": "https://www.youtube.com/embed/3yqC3AO4drM?si=XWSQ__hf_JFF9JOS",
+        "description": "Yamaha C1X was first launched in October 2012. Yamaha Japan only sells the best quality new pianos in Japan main land. We provide parallel import service for new C1X from the local Japanese store and then deliver it to the customer's home in Singapore. The customer will enjoy not only the extremely high discount but also the better quality and after sale servier with us."
+    },
+
+    // OHHASHI
+    // {
+    //     "serial": 3054,
+    //     "uri": "images/product/ohh3054/0.jpg",
+    //     "price": 12000,
+    //     "modelName": "No.132",
+    //     "brand": "OHHASHI",
+    //     "origin": "Japan",
+    //     "link": "ohh3054.html",
+    //     "imageCount": 17,
+    //     "videoLink": "https://www.youtube.com/embed/6II0ZMmTIE0",
+    //     "description": "This particular piece was made by hand back in 1974 by the artisan, Ohhashi Hataiwa, the incomparable piano maker from the Land of The Rising Sun and the national pride of Japan. It was kept in a perfect condition and has never been retouched. Starting from 1958 to 1995, within the span of 37 years, Ohhashi and his son made a total of 4639 pianos by hand, which was an effective display of the top notch Japanese craftsmanship in Piano making, making it the only Japanese piano that could be placed in the same league as the European luxury brands.<br><br> The first piece of Piano from Ohhashi was born in 1958, and was affixed with a serial number of 1961. Throughout Ohhashi's life, that number never exceeded 4000, making the number of pianos that were personally made by him to be in slight excess of a 2000, and unfortunately, only a handful was properly preserved to be able to make it into the 2nd hand piano market, making his pianos a priceless and precious collectible for hardcore piano fans."
+    // },
+    // {
+    //     "serial": 2301,
+    //     "uri": "images/product/ohh2301/0.jpg",
+    //     "price": 12000,
+    //     "modelName": "No.132",
+    //     "brand": "OHHASHI",
+    //     "origin": "Japan",
+    //     "link": "ohh2301.html",
+    //     "imageCount": 17,
+    //     "videoLink": "https://www.youtube.com/embed/mS-k0gPBpAs",
+    //     "description": "This particular piece was made by hand back in 1966 by the artisan, Ohhashi Hataiwa, the incomparable piano maker from the Land of The Rising Sun and the national pride of Japan. It was kept in a perfect condition and has never been retouched. Starting from 1958 to 1995, within the span of 37 years, Ohhashi and his son made a total of 4639 pianos by hand, which was an effective display of the top notch Japanese craftsmanship in Piano making, making it the only Japanese piano that could be placed in the same league as the European luxury brands.<br><br> The first piece of Piano from Ohhashi was born in 1958, and was affixed with a serial number of 1961. Throughout Ohhashi's life, that number never exceeded 4000, making the number of pianos that were personally made by him to be in slight excess of a 2000, and unfortunately, only a handful was properly preserved to be able to make it into the 2nd hand piano market, making his pianos a priceless and precious collectible for hardcore piano fans."
+    // }
 ];
