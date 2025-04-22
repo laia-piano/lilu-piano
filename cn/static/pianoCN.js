@@ -31,7 +31,7 @@ const pianosList = [
         "link": "ste93144.html",
         "imageCount": 41,
         "videoLink": "https://www.youtube.com/embed/-ppviNhZpPs",
-        "description": "你好 Before WWII, the Louis XVI was specifically customized for royalties and highly influential figures from all over the world. The design of model A was finalized in 1896, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades.<br><br>It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability."
+        "description": "Before WWII, the Louis XVI was specifically customized for royalties and highly influential figures from all over the world. The design of model A was finalized in 1896, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades.<br><br>It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability."
     },
     {
         "serial": 261296,
@@ -223,30 +223,32 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/B8Ag-p7WIYo?si=PDCScJqdNO6NtHkM",
         "description": "Yamaha was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. Yamaha reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The SX series with WnC special appearance is a model exclusively equipped with automatic playing system at the same time as the original U10BL and U10A. It is equivalent to the current DU1ENST model, which is newly available for sale, with an optional solid American walnut composite shell, coupled with cat paw curved legs, making it highly aesthetic and valuable.We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore."
     },
-
-    // OHHASHI
     {
-        "serial": 3054,
-        "uri": "images/product/ohh3054/0.jpg",
-        "price": 12000,
-        "modelName": "No.132",
-        "brand": "OHHASHI",
+        "serial": "New C3X",
+        "uri": "images/product/yamC3Xnew/0.jpg",
+        "price": 36000,
+        "modelName": "C3X",
+        "brand": "YAMAHA New Piano",
         "origin": "Japan",
-        "link": "ohh3054.html",
-        "imageCount": 17,
-        "videoLink": "https://www.youtube.com/embed/6II0ZMmTIE0",
-        "description": "This particular piece was made by hand back in 1974 by the artisan, Ohhashi Hataiwa, the incomparable piano maker from the Land of The Rising Sun and the national pride of Japan. It was kept in a perfect condition and has never been retouched. Starting from 1958 to 1995, within the span of 37 years, Ohhashi and his son made a total of 4639 pianos by hand, which was an effective display of the top notch Japanese craftsmanship in Piano making, making it the only Japanese piano that could be placed in the same league as the European luxury brands.<br><br> The first piece of Piano from Ohhashi was born in 1958, and was affixed with a serial number of 1961. Throughout Ohhashi's life, that number never exceeded 4000, making the number of pianos that were personally made by him to be in slight excess of a 2000, and unfortunately, only a handful was properly preserved to be able to make it into the 2nd hand piano market, making his pianos a priceless and precious collectible for hardcore piano fans."
+        "link": "yamC3Xnew.html",
+        "imageCount": 15,
+        "videoLink": "https://www.youtube.com/embed/DEKNaVEJKUg?si=cLI67g5Ani055AQH",
+        "description": "The fifth generation UX series from Japan's YAMAHA, featuring true 米 backs, was only available between 1990 and 1997. Due to high manufacturing costs and dwindling stocks of old wood after 1997, along with Japan's economic downturn, 米 back production ceased. Although the UX series was first released in 1975, the first four generations before 1990 featured a three-pillar crossing and were not 米, with significant differences in manufacturing processes, design, and material configuration compared to the later two generations. The playing experience of the true 米 back is much better than the current YUS series on sale. It's an essential collectible for YAMAHA piano enthusiasts."
     },
     {
-        "serial": 2301,
-        "uri": "images/product/ohh2301/0.jpg",
-        "price": 12000,
-        "modelName": "No.132",
-        "brand": "OHHASHI",
+        "serial": "New C1X",
+        "uri": "images/product/yamC1Xnew/0.jpg",
+        "price": 27000,
+        "modelName": "C1X",
+        "brand": "YAMAHA New Piano",
         "origin": "Japan",
-        "link": "ohh2301.html",
-        "imageCount": 17,
-        "videoLink": "https://www.youtube.com/embed/mS-k0gPBpAs",
-        "description": "This particular piece was made by hand back in 1966 by the artisan, Ohhashi Hataiwa, the incomparable piano maker from the Land of The Rising Sun and the national pride of Japan. It was kept in a perfect condition and has never been retouched. Starting from 1958 to 1995, within the span of 37 years, Ohhashi and his son made a total of 4639 pianos by hand, which was an effective display of the top notch Japanese craftsmanship in Piano making, making it the only Japanese piano that could be placed in the same league as the European luxury brands.<br><br> The first piece of Piano from Ohhashi was born in 1958, and was affixed with a serial number of 1961. Throughout Ohhashi's life, that number never exceeded 4000, making the number of pianos that were personally made by him to be in slight excess of a 2000, and unfortunately, only a handful was properly preserved to be able to make it into the 2nd hand piano market, making his pianos a priceless and precious collectible for hardcore piano fans."
-    }
+        "link": "yamC1Xnew.html",
+        "imageCount": 10,
+        "videoLink": "https://www.youtube.com/embed/3yqC3AO4drM?si=XWSQ__hf_JFF9JOS",
+        "description": "The fifth generation UX series from Japan's YAMAHA, featuring true 米 backs, was only available between 1990 and 1997. Due to high manufacturing costs and dwindling stocks of old wood after 1997, along with Japan's economic downturn, 米 back production ceased. Although the UX series was first released in 1975, the first four generations before 1990 featured a three-pillar crossing and were not 米, with significant differences in manufacturing processes, design, and material configuration compared to the later two generations. The playing experience of the true 米 back is much better than the current YUS series on sale. It's an essential collectible for YAMAHA piano enthusiasts."
+    },
+
+
+    // OHHASHI
+    
 ];
