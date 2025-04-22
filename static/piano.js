@@ -85,6 +85,19 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/KEmhqDE842g",
         "description": "Model M went on sale in 1911 and the design was finalized in 1918, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades. <br><br> It was then reconstructed in USA in 2020, where the actions, hammers and other corresponding components such as the strings and consumables were all replaced with those produced by original STEINWAY factory USA. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability."
     },
+    {
+        "serial": 109748,
+        "uri": "images/product/ste109748/0.jpg",
+        "price": 178000,
+        "modelName": "B211 Louis XV",
+        "brand": "STEINWAY & SONS",
+        "origin": "Hamburg, Germany",
+        "link": "ste109748.html",
+        "imageCount": 41,
+        "videoLink": "https://www.youtube.com/embed/-ppviNhZpPs",
+        "videoLink2": "https://youtube.com/shorts/BytYNAq4SvU?si=If0x0WnvnqlW_hls",
+        "description": "Before WWII, the Louis XVI was specifically customized for royalties and highly influential figures from all over the world. The design of model A was finalized in 1896, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades.<br><br>It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability."
+    },
 
     // Blüthner
 
@@ -288,6 +301,19 @@ const pianosList = [
         "imageCount": 10,
         "videoLink": "https://www.youtube.com/embed/3yqC3AO4drM?si=XWSQ__hf_JFF9JOS",
         "description": "Yamaha C1X was first launched in October 2012. Yamaha Japan only sells the best quality new pianos in Japan main land. We provide parallel import service for new C1X from the local Japanese store and then deliver it to the customer's home in Singapore. The customer will enjoy not only the extremely high discount but also the better quality and after sale servier with us."
+    },
+    {
+        "serial": "6263763",
+        "uri": "images/product/yam6263763/0.jpg",
+        "price": 20000,
+        "modelName": "A1LS",
+        "brand": "YAMAHA",
+        "origin": "Japan",
+        "link": "yam6263763.html",
+        "imageCount": 38,
+        "videoLink": "https://www.youtube.com/embed/ssXJlqkVnUI?si=TgPfMLhqP98vVYzw",
+        "videoLink2": "https://www.youtube.com/embed/o9Jbwf_yTeg?si=tbUnUkMFOGb5kVt1",
+        "description": "Launched in 1995, the Yamaha A1 is the smallest grand piano ever made in Japan by Yamaha, measuring only 149 cm in length. It was developed to meet the needs of customers who admired the C1 model but had limited living space and did not want the feel of an upright piano. As a result, the A1 was introduced as a more compact alternative to the C1, offering the same level of performance in a smaller footprint — a perfect solution for high-quality grand piano experience in small apartments. <br><br>In 2010, Yamaha discontinued the A1 due to its production costs being nearly identical to the C1, which began to affect the sales of both the C1 and the GC1. Since then, Yamaha has replaced its compact grand offerings with the more cost-effective GB1 and GN1 models, manufactured in Indonesia with lower-grade materials."
     },
 
     // OHHASHI
