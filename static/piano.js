@@ -94,9 +94,9 @@ const pianosList = [
         "origin": "Hamburg, Germany",
         "link": "ste109748.html",
         "imageCount": 41,
-        "videoLink": "https://www.youtube.com/embed/-ppviNhZpPs",
-        "videoLink2": "https://youtube.com/shorts/BytYNAq4SvU?si=If0x0WnvnqlW_hls",
-        "description": "Before WWII, the Louis XVI was specifically customized for royalties and highly influential figures from all over the world. The design of model A was finalized in 1896, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades.<br><br>It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability."
+        "videoLink": "https://www.youtube.com/embed/bI4ZPc7HVYc?si=-RKD1wFVAd89w_i3",
+        "videoLink2": "https://www.youtube.com/embed/BytYNAq4SvU?si=vBIdLq5CjN-u8eiU",
+        "description": "Before WWII, the Louis XV was specifically customized for royalties and highly influential figures from all over the world. The design of model A was finalized in 1896, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades.<br><br>It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability."
     },
 
     // Blüthner
