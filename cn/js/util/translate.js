@@ -17,9 +17,9 @@ window.onload = function(){
 			case "ahout.html":
 				path = "../../../ahout.html"; 
 				break;
-		
+			
 			default:
-				path = `../../../pianos/${fileName}`;
+				path = `../../../${fileName}`;
 				break;
 		}
 

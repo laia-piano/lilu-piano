@@ -11,12 +11,12 @@ window.onload = function(){
 			case "pianos.html":
 				path = "../../cn/pianos.html"; 
 				break;
-			case "ahout.html":
-				path = "../../cn/ahout.html"; 
+			case "about.html":
+				path = "../../cn/about.html"; 
 				break;
-		
+
 			default:
-				path = `../../cn/pianos/${fileName}`;
+				path = `../../cn/${fileName}`;
 				break;
 		}
 

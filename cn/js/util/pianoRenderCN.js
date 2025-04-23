@@ -1,5 +1,5 @@
 function init(cb) {
-    document.write('<script src="static/pianoCN.js" type="text/javascript"></script>');
+    document.write('<script src="../static/piano.js" type="text/javascript"></script>');
     return cb();
 };
 
@@ -54,13 +54,13 @@ function renderList(json, domId, domcument) {
                         <div class="post_item_wrap">
                         <div class="post_featured">
                             <div class="post_thumb">
-                                <img width="300" height="300" src="${uri}" alt="product-7" title="product-7" /> </a>
+                                <img width="300" height="300" src="../${uri}" alt="product-7" title="product-7" /> </a>
                         </div>
                         <div class="post_content">
                             <h3>${brand} <br> ${modelName}</h3>
                             <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>
                             </span>
-                            <form action="../../pianos/details.html" method="GET">
+                            <form action="../cn/details.html" method="GET">
                                 <input type="hidden" name="link" value="${link}">
                                 <input type="submit" value="View Details"/ >                         
                             </form>

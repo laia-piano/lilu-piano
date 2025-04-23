@@ -1,5 +1,5 @@
 function init(cb) {
-    document.write('<script src="../../static/piano.js" type="text/javascript"></script>');
+    document.write('<script src="../static/piano.js" type="text/javascript"></script>');
     return cb();
 };
 
@@ -60,7 +60,7 @@ function renderList (json, domId, document) {
                         <div class="post_content">
                           <h3>${brand} <br> ${modelName}</h3>
                           <h4 style="color: #59c6bc; line-height:1.6em; margin-bottom:0.4em">${origin} <br> S$${price}</h4>
-                          <form action="pianos/details.html" method="GET">
+                          <form action="details.html" method="GET">
                                 <input type="hidden" name="link" value="${link}">
                                 <input type="submit" value="View Details"/ >                         
                           </form>

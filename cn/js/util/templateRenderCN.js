@@ -1,6 +1,6 @@
 
 function init(cb) {
-    document.write('<script src="../static/pianoCN.js" type="text/javascript"></script>');
+    document.write('<script src="../../static/pianoCN.js" type="text/javascript"></script>');
     return cb();
 };
 
@@ -29,7 +29,7 @@ function renderPianoDetails(json, document) {
 
 
     const component =  `
-                        <div class="images"><img width="600" height="600" src="../${json.uri}"
+                        <div class="images"><img width="600" height="600" src="../../${json.uri}"
                                                  class="attachment-shop_single size-shop_single wp-post-image"
                                                  alt="product-8"
                                                  title="product-8"/></a> </div>
@@ -72,7 +72,7 @@ function renderPianoDetails(json, document) {
                                             </li>
     `
 
-    for (let i = 0; i <= json.imageCount; i ++) {
+    for (let i = 1; i <= json.imageCount; i ++) {
         imageComponent += `
                                             <li class="eg-melody-wrapper">
                                                 <div class="esg-media-cover-wrapper">
