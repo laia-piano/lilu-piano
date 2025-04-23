@@ -8,6 +8,12 @@ window.onload = function(){
 			case "contact.html":
 				path = "../../cn/contact.html"; // correct path
 				break;
+			case "pianos.html":
+				path = "../../cn/pianos.html"; 
+				break;
+			case "ahout.html":
+				path = "../../cn/ahout.html"; 
+				break;
 		
 			default:
 				path = `../../cn/pianos/${fileName}`;
