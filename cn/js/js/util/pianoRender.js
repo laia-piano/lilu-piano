@@ -62,7 +62,7 @@ function renderList (json, domId, document) {
                           <h4 style="color: #59c6bc; line-height:1.6em; margin-bottom:0.4em">${origin} <br> S$${price}</h4>
                           <form action="pianos/details.html" method="GET">
                                 <input type="hidden" name="link" value="${link}">
-                                <input type="submit" value="View Details"/ >                         
+                                <input type="submit" value="查看详细"/ >                         
                           </form>
                           </div>
                       </div>
@@ -225,8 +225,7 @@ function renderPianoDetail(json, domId, document) {
                   </div>
                   <form class="cart" method="post" enctype='multipart/form-data'>
                     <input type="hidden" name="add-to-cart" value="287" />
-                    <a href="contact.html" type="submit" class="single_add_to_cart_button button alt">Contact Us to
-                      View</a>
+                    <a href="contact.html" type="submit" class="single_add_to_cart_button button alt">联系我们试琴</a>
                   </form>
                   <div class="product_meta"> <span class="posted_in">Categories: <a href="#" rel="tag">${json.brandName}</a></span>
                   </div>
