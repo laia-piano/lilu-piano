@@ -9,13 +9,13 @@ init(() => { });
 // 1.1 test for commit
 let cachedList = [];
 let currentBrand = '';
-let currentPriceMax = 200000;
+let currentPriceMax = 250000;
 let currentPriceMin = 0;
 let sortDir = 'descending';
 let brands = new Set();
 
 function getAllBrand(json) {
-    brands = new Set(json.map(piano => piano["brand"]));
+    brands = new Set(json.map(piano => piano["brand2"]));
 }
 
 function renderBrands(domId, document) {
@@ -24,9 +24,9 @@ function renderBrands(domId, document) {
     const node = document.querySelector(domId);
 
     let component = '';
-    brands.forEach(brand => {
+    brands.forEach(brand2 => {
         component += `
-        <li class="cat-item"><a href="#" class="brand-anchor" id="${brand.toLowerCase()}-anchor">${brand}</a></li>
+        <li class="cat-item"><a href="#" class="brand-anchor" id="${brand2.toLowerCase()}-anchor">${brand2}</a></li>
         `
     });
 
@@ -48,7 +48,7 @@ function renderList(json, domId, domcument) {
 
     let component = '';
     renderingList.forEach(piano => {
-        const { uri, modelName, price, brand, link } = piano;
+        const { uri, modelName2, price, brand2, link } = piano;
         component += `
                     <li class="product type-product has-post-thumbnail column-1_3">
                         <div class="post_item_wrap">
@@ -57,7 +57,7 @@ function renderList(json, domId, domcument) {
                                 <img width="300" height="300" src="../${uri}" alt="product-7" title="product-7" /> </a>
                         </div>
                         <div class="post_content">
-                            <h3>${brand} <br> ${modelName}</h3>
+                            <h3>${brand2} <br> ${modelName2}</h3>
                             <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>${price}</span>
                             </span>
                             <form action="../cn/details.html" method="GET">

@@ -9,7 +9,7 @@ init(() => {});
 // 1.1 test for commit
 let cachedList = [];
 let currentBrand = '';
-let currentPriceMax = 200000;
+let currentPriceMax = 250000;
 let currentPriceMin = 0;
 let sortDir = 'descending';
 let brands = new Set();

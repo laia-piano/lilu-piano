@@ -45,6 +45,9 @@ function renderPianoDetails(json, document) {
                                 <p>
                                     ${json.description}
                                 </p>
+                                <h3>
+                                    Click on the video below for more detailed introductions and sound preview.
+                                </h3>
                             </div>
                             <div class="sc_promo_button sc_item_button">
 								<a href="https://wa.me/6581667290"><img src="../whatsapp2.png"><img></a>
