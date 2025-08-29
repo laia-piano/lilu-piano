@@ -15,7 +15,8 @@ let sortDir = 'descending';
 let brands = new Set();
 
 function getAllBrand(json) {
-    brands = new Set(json.map(piano => piano["brand2"]));
+    brands = new Set(json.map(piano => piano["brand"]));
+    
 }
 
 function renderBrands(domId, document) {
@@ -24,9 +25,9 @@ function renderBrands(domId, document) {
     const node = document.querySelector(domId);
 
     let component = '';
-    brands.forEach(brand2 => {
+    brands.forEach(brand => {
         component += `
-        <li class="cat-item"><a href="#" class="brand-anchor" id="${brand2.toLowerCase()}-anchor">${brand2}</a></li>
+        <li class="cat-item"><a href="#" class="brand-anchor" id="${brand.toLowerCase()}-anchor">${brand}</a></li>
         `
     });
 
@@ -62,7 +63,7 @@ function renderList(json, domId, domcument) {
                             </span>
                             <form action="../cn/details.html" method="GET">
                                 <input type="hidden" name="link" value="${link}">
-                                <input type="submit" value="View Details"/ >                         
+                                <input type="submit" value="详细查看"/ >                         
                             </form>
 
                             
