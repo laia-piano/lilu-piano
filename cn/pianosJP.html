@@ -58,18 +58,13 @@
 							<div class="menu_main_wrap">
 								<nav class="menu_main_nav_area">
 									<ul id="menu_main" class="menu_main_nav">
-										<li class="menu-item"><a href="index.html">Home</a>
+										<li class="menu-item"><a href="index.html">主页</a>
 										</li>
-										<li class="menu-item"><a href="about.html">About</a>
-										</li>
-										<li class="menu-item"><a href="pianos.html">Luxury Pianos</a>
-										</li>
-										<li class="menu-item"><a href="pianosJP.html">Japan Pianos</a> </li>
-										<li class="menu-item"><a href="contact.html">Contact</a>
-										</li>
-										<li id="translate" class="menu-item">
-										</li>
-
+										<li class="menu-item"><a href="about.html">关于中古豪琴汇</a> </li>
+										<li class="menu-item"><a href="pianos.html">奢华钢琴列表</a> </li>
+										<li class="menu-item"><a href="pianosJP.html">日本钢琴列表</a> </li>
+										<li class="menu-item"><a href="contact.html">联系我们</a> </li>
+										<li id="translate" class="menu-item"></li>
 									</ul>
 								</nav>
 							</div>
@@ -90,16 +85,12 @@
 					<div class="panel_top">
 						<nav class="menu_main_nav_area">
 							<ul id="menu_mobile" class="menu_main_nav">
-								<li class="menu-item"><a href="index.html">Home</a>
+								<li class="menu-item"><a href="index.html">主页</a>
 								</li>
-								<li class="menu-item"><a href="about.html">About</a>
-								</li>
-								<li class="menu-item"><a href="pianos.html">Luxury Pianos</a>
-								</li>
-								<li class="menu-item"><a href="pianosJP.html">Japan Pianos</a>
-								</li>
-								<li class="menu-item"><a href="contact.html">Contact</a>
-								</li>
+								<li class="menu-item"><a href="about.html">关于中古豪琴汇</a> </li>
+								<li class="menu-item"><a href="pianos.html">奢华钢琴列表</a> </li>
+								<li class="menu-item"><a href="pianosJP.html">日本钢琴列表</a> </li>
+								<li class="menu-item"><a href="contact.html">联系我们</a> </li>
 								<li id="translateMobile" class="menu-item"></li>
 								<script type='text/javascript' src='js/util/translate.js'></script>
 							</ul>
@@ -114,9 +105,9 @@
 				<div
 					class="top_panel_title_inner top_panel_inner_style_6  title_present_inner breadcrumbs_present_inner">
 					<div class="content_wrap">
-						<div class="breadcrumbs"><a class="breadcrumbs_item home" href="index.html">Home</a><span
-								class="breadcrumbs_delimiter"></span><span
-								class="breadcrumbs_item current">Pianos</span></div>
+						<div class="breadcrumbs"><a class="breadcrumbs_item home" href="index.html">主页</a><span
+								class="breadcrumbs_delimiter"></span><span class="breadcrumbs_item current">钢琴商城</span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -159,12 +150,32 @@
 					</div>
 				</div>
 				<div class="content_wrap">
+					<div class="content">
+						<div class="list_products shop_mode_thumbs">
+							<!--							<form class="woocommerce-ordering" method="get">-->
+							<select id='select-filter' name="orderby" class="orderby">
+								<!--								<option value="menu_order" >Default sorting</option>-->
+								<!--								<option value="popularity">Sort by popularity</option>-->
+								<!--								<option value="rating">Sort by average rating</option>-->
+								<!--								<option value="date">Sort by newness</option>-->
+								<option value="descending" id="price-desc" selected='selected'>价格排序：从高到低</option>
+								<option value="ascending" id="price-asc">价格排序：从低到高</option>
+							</select>
+							<!--								<input type="hidden" name="q" value="/shop/" />-->
+							<!--							</form>-->
+							<ul class="products" id="piano-list-wrapper">
+
+
+							</ul>
+						</div>
+					</div>
 					<div class="sidebar widget_area scheme_light" role="complementary">
 						<div class="sidebar_inner widget_area_inner">
 
 							<aside id="woocommerce_price_filter-2"
 								class="widget_number_2 widget woocommerce widget_price_filter">
-								<h5 class="widget_title">PRICE FILTER</h5>
+								<h5 class="widget_title">价格筛选</h5>
+								<!--								<form method="get" action="">-->
 								<div class="price_slider_wrapper">
 									<div id="slider-filter" class="price_slider" style="display:none;"></div>
 									<div class="price_slider_amount">
@@ -173,37 +184,30 @@
 										<input type="text" id="max_price" name="max_price" value="" data-max="250000"
 											placeholder="Max price" />
 										<button class="button" id="price-filter-reset-button"
-											style="margin-right: 50%">Reset</button>
-										<button class="button" id="price-filter-confirm-button">Filter</button>
+											style="margin-right: 50%">重置</button>
+										<button class="button" id="price-filter-confirm-button">选择器</button>
 										<div class="price_label" style="display:none;">
-											Price: <span class="from"></span> &mdash; <span class="to"></span>
+											价格: <span class="from"></span> &mdash; <span class="to"></span>
 										</div>
 										<div class="clear"></div>
 									</div>
 								</div>
+								<!--								</form>-->
 							</aside>
 							<aside id="woocommerce_product_categories-2"
 								class="widget_number_3 widget woocommerce widget_product_categories">
-								<h5 class="widget_title">CATEGORIES</h5>
+								<h5 class="widget_title">品牌分类</h5>
 								<ul class="product-categories" id="product-categories">
+									<!--<li class="cat-item"><a href="#" class="brand-anchor" id="STEINWAY-anchor">STEINWAY & SONS</a></li>
+									<li class="cat-item"><a href="#" class="brand-anchor" id="Blüthner">Blüthner</a></li>
+									<li class="cat-item"><a href="#" class="brand-anchor" id="other-anchor">Other Euro Brands</a></li>
+									<li class="cat-item"><a href="#" class="brand-anchor" id="yamaha-anchor">YAMAHA</a></li>
+									<li class="cat-item"><a href="#" class="brand-anchor" id="ohhashi-anchor">OHHASHI</a></li>-->
+
 								</ul>
 							</aside>
 						</div>
 					</div>
-					<div class="content">
-						<div class="list_products shop_mode_thumbs">
-							<select id='select-filter' name="orderby" class="orderby">
-								<option value="descending" id="price-desc" selected='selected'>Sort by price: high to
-									low</option>
-								<option value="ascending" id="price-asc">Sort by price: low to high</option>
-							</select>
-							<ul class="products" id="piano-list-wrapper">
-
-
-							</ul>
-						</div>
-					</div>
-
 				</div>
 			</div>
 			<div class="copyright_wrap copyright_style_socials  scheme_original">
@@ -243,7 +247,7 @@
 		src='js/vendor/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js'></script>
 	<script type='text/javascript' src='js/vendor/plugins/woocommerce/assets/js/frontend/price-slider.min.js'></script>
 	<script type='text/javascript' src='js/custom/custom.js'></script>
-	<script src="js/util/pianoRender.js"></script>
+	<script src="js/util/pianoRenderCNJP.js"></script>
 	<script>
 		resetFilter(document);
 		renderList(pianosList, "#piano-list-wrapper", document);

@@ -1,6 +1,6 @@
 
 function init(cb) {
-    document.write('<script src="../../static/piano.js" type="text/javascript"></script>');
+    document.write('<script src="../../static/pianoJP.js" type="text/javascript"></script>');
     return cb();
 };
 
@@ -29,13 +29,13 @@ function renderPianoDetails(json, document) {
 
 
     const component =  `
-                        <div class="images"><img width="600" height="600" src="../../${json.uri}"
+                        <div class="images"><img width="600" height="600" src="../${json.uri}"
                                                  class="attachment-shop_single size-shop_single wp-post-image"
                                                  alt="product-8"
                                                  title="product-8"/></a> </div>
                         <div class="summary entry-summary">
-                            <h1 itemprop="name" class="product_title entry-title">${json.brand2} ${json.modelName2}</h1>
-                            <h4 style="color: #59c6bc">制造产地： ${json.origin2}</h4>
+                            <h1 itemprop="name" class="product_title entry-title">${json.brand} ${json.modelName}</h1>
+                            <h4 style="color: #59c6bc">Made in ${json.origin}</h4>
                             <div itemprop="offers" itemtype="http://schema.org/Offer">
                                 <p class="price"><span class="woocommerce-Price-amount amount"><span
                                         class="woocommerce-Price-currencySymbol">S&#36;</span>${json.price}</span></p>
@@ -43,10 +43,10 @@ function renderPianoDetails(json, document) {
                             </div>
                             <div itemprop="description" style="text-align: justify">
                                 <p>
-                                    ${json.description2}
+                                    ${json.description}
                                 </p>
                                 <h3>
-                                    点击下方视频获取更详细的介绍和音色试听
+                                    Click on the video below for more detailed introductions and sound preview.
                                 </h3>
                             </div>
                             <div class="sc_promo_button sc_item_button">
@@ -75,7 +75,7 @@ function renderPianoDetails(json, document) {
                                             </li>
         <li data-cobblesw="1" data-cobblesh="2">
                                                 <iframe width="560" height="auto"
-                                                        src="${json.videoLink}"
+                                                        src="${json.videoLink2}"
                                                         title="YouTube video player" frameborder="0"
                                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                         allowfullscreen></iframe>

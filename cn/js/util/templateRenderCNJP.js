@@ -1,6 +1,6 @@
 
 function init(cb) {
-    document.write('<script src="../../static/piano.js" type="text/javascript"></script>');
+    document.write('<script src="../../static/pianoJP.js" type="text/javascript"></script>');
     return cb();
 };
 
