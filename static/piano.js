@@ -22,8 +22,8 @@ const pianosList = [
         "origin": "New York, USA",
         "origin2": "美国纽约",
         "link": "ste300183.html",
-        "imageCount": 40,
-        "videoLink": "https://www.youtube.com/embed/6_PC8M2zIds",
+        "imageCount": 36,
+        "videoLink": "https://www.youtube.com/embed/pBgpQFdLKyA?si=17uQOaa8r1CxChvW",
         "videoLink2": "https://www.youtube.com/embed/6_PC8M2zIds",
         "description": "Before WWII, the Queen Anne was specifically customized for royalties and highly influential figures from all over the world. Model M went on sale in 1911 and the design was finalized in 1918 where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades. <br><br> It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability.",
          "description2": "安妮女王款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年。该琴于2020年重建，更换德国Abel击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。"

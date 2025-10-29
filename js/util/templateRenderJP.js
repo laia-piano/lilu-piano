@@ -72,19 +72,12 @@ function renderPianoDetails(json, document) {
                                                         title="YouTube video player" frameborder="0"
                                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                         allowfullscreen></iframe>
-                                            </li>
-        <li data-cobblesw="1" data-cobblesh="2">
-                                                <iframe width="560" height="auto"
-                                                        src="${json.videoLink2}"
-                                                        title="YouTube video player" frameborder="0"
-                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                        allowfullscreen></iframe>
-                                            </li>
+        </li>
     `
 
     for (let i = 1; i <= json.imageCount; i ++) {
         imageComponent += `
-                                            <li class="eg-melody-wrapper">
+                                            <li class="eg-melody-wrapper" data-cobblesw="1" data-cobblesh="2">
                                                 <div class="esg-media-cover-wrapper">
                                                     <div class="esg-entry-media"><img
                                                             src="../../${folder}/${i}.jpg" alt=""></div>

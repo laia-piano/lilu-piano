@@ -177,7 +177,7 @@ const pianosList = [
     {
         "serial": 5128074,
         "uri": "images/product/yam5128074/0.jpg",
-        "price": 13500,
+        "price": 11500,
         "modelName": "WX5AWnC",
         "modelName2": "WX5AWnC",
         "brand": "YAMAHA",
