@@ -220,7 +220,7 @@ const pianosList = [
         "origin2": "日本",
         "link": "yamC3Xnew.html",
         "imageCount": 15,
-        "videoLink": "https://www.youtube.com/embed/DEKNaVEJKUg?si=cLI67g5Ani055AQH",
+        "videoLink": "https://www.youtube.com/embed/DEKNaVEJKUg?si=8Yp6i_pvK2e6jRcx",
         "description": "YAMAHA C3X was first launched in October 2012. YAMAHA Japan only sells the best quality new pianos in Japan main land. We provide parallel import service for new C1X from the local Japanese store and then deliver it to the customer's home in Singapore. The customer will enjoy not only the extremely high discount but also the better quality and after sale servier with us.",
         "description2": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period. <br><br>The HQ Series, which includes the U100 and U300 models, features an original factory-installed automatic playing system, comparable to the currently available DU1ENST. We exclusively offer over 2,000 high-quality automatic playing pieces for our MX/SX and HQ customers free of charge. The SX/SXG suffix indicates YAMAHA's original high-precision silent system, allowing for late-night practice without disturbing others. It is the most cost-effective choice for beginner pianos in all of Singapore.",
     },
