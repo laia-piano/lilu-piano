@@ -4,7 +4,7 @@ function init(cb) {
     return cb();
 };
 
-init(() => {});
+init(() => { });
 
 function _getPianoId() {
     const templatePath = window.location.search;
@@ -12,7 +12,7 @@ function _getPianoId() {
     return urlParams.get("link");
 }
 
-function _getPianoDetails (pianoId) {
+function _getPianoDetails(pianoId) {
     return pianosList.find(piano => piano.link === pianoId)
 }
 
@@ -28,7 +28,7 @@ function renderPianoDetails(json, document) {
     const folder = folderMatch[1];
 
 
-    const component =  `
+    const component = `
                         <div class="images"><img width="600" height="600" src="../${json.uri}"
                                                  class="attachment-shop_single size-shop_single wp-post-image"
                                                  alt="product-8"
@@ -45,9 +45,9 @@ function renderPianoDetails(json, document) {
                                 <p>
                                     ${json.description}
                                 </p>
-                                <h3>
+                                <h4>
                                     Click on the video below for more detailed introductions and sound preview.
-                                </h3>
+                                </h4>
                             </div>
                             <div class="sc_promo_button sc_item_button">
 								<a href="https://wa.me/6581667290"><img src="../whatsapp2.png"><img></a>
@@ -66,7 +66,7 @@ function renderPianoDetails(json, document) {
     `;
 
 
-    for (let i = 1; i <= json.imageCount; i ++) {
+    for (let i = 1; i <= json.imageCount; i++) {
         imageComponent += `
                                             <li class="eg-melody-wrapper" data-cobblesw="1" data-cobblesh="2">
                                                 <div class="esg-media-cover-wrapper">
@@ -76,6 +76,16 @@ function renderPianoDetails(json, document) {
                                             </li>
         `
     }
+    
+    imageComponent += `
+                                            <li class="eg-melody-wrapper" data-cobblesw="1" data-cobblesh="2">
+                                                <div class="esg-media-cover-wrapper">
+                                                    <div class="esg-entry-media"><img
+                                                            src="x.jpg" alt=""></div>
+                                                </div>
+                                            </li>
+        `
+
 
     imageComponent += `
         <li data-cobblesw="1" data-cobblesh="2">

@@ -153,7 +153,7 @@ const pianosList = [
         "origin": "Hamburg, Germany",
         "origin2": "德国汉堡",
         "link": "ste611419.html",
-        "imageCount": 38,
+        "imageCount": 37,
         "videoLink": "https://www.youtube.com/embed/7NnY8LDdi9U?si=L3JjxmYTTkxyXHqv",
         "videoLink2": "https://www.youtube.com/embed/88V_jr_UWEE?si=u8eqo1MFyB7RZeaa",
         "description": "Introduced in 1906, the Model K-132 has long been regarded as the flagship upright model of Steinway & Sons. Instruments manufactured in Hamburg, Germany, prior to 2019 were predominantly equipped with three pedals. In contrast, K-132 models produced at the New York factory have featured three pedals consistently since the post World WarII era, with the middle pedal offering the sostenuto function—typically reserved for grand pianos.<br><br>This particular instrument, serial number 611419, was manufactured in Hamburg, Germany, in 2019. It comes from the inventory of a European piano dealer and has been preserved as a showroom display model.",

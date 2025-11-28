@@ -4,7 +4,7 @@ function init(cb) {
     return cb();
 };
 
-init(() => {});
+init(() => { });
 
 function _getPianoId() {
     const templatePath = window.location.search;
@@ -12,7 +12,7 @@ function _getPianoId() {
     return urlParams.get("link");
 }
 
-function _getPianoDetails (pianoId) {
+function _getPianoDetails(pianoId) {
     return pianosList.find(piano => piano.link === pianoId)
 }
 
@@ -28,7 +28,7 @@ function renderPianoDetails(json, document) {
     const folder = folderMatch[1];
 
 
-    const component =  `
+    const component = `
                         <div class="images"><img width="600" height="600" src="../../${json.uri}"
                                                  class="attachment-shop_single size-shop_single wp-post-image"
                                                  alt="product-8"
@@ -65,26 +65,27 @@ function renderPianoDetails(json, document) {
                                         <ul>
     `;
 
-    for (let i = 1; i <= json.imageCount; i ++) {
+    for (let i = 1; i <= json.imageCount; i++) {
         imageComponent += `
                                             <li class="eg-melody-wrapper" data-cobblesw="1" data-cobblesh="2">
                                                 <div class="esg-media-cover-wrapper">
                                                     <div class="esg-entry-media"><img
-                                                            src="../../${folder}/${i}.jpg" alt=""></div>
-                                                    <div class="esg-entry-cover esg-fade" data-delay="0">
-                                                        <div class="esg-overlay esg-fade eg-melody-container"
-                                                             data-delay="0"></div>
-                                                        <div class="esg-center eg-melody-element-0-a esg-falldown"
-                                                             data-delay="0.1"><a
-                                                                class="eg-melody-element-0 esgbox"
-                                                                href="../../${folder}/${i}.jpg"><i
-                                                                class="eg-icon-search"></i></a></div>
+                                                            src="../../${folder}/${i}.jpg" alt="">
                                                     </div>
-                                                </div>
+                                                </div>ß
                                             </li>
         `
     }
-    
+
+    imageComponent += `
+                                            <li class="eg-melody-wrapper" data-cobblesw="1" data-cobblesh="2">
+                                                <div class="esg-media-cover-wrapper">
+                                                    <div class="esg-entry-media"><img
+                                                            src="../cn.jpg" alt=""></div>
+                                                </div>
+                                            </li>
+        `
+
     imageComponent += `
         <li data-cobblesw="1" data-cobblesh="2">
                                                 <iframe width="560" height="auto"

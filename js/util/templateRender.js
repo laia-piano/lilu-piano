@@ -45,9 +45,9 @@ function renderPianoDetails(json, document) {
                                 <p>
                                     ${json.description}
                                 </p>
-                                <h3>
+                                <h4>
                                     Click on the video below for more detailed introductions and sound preview.
-                                </h3>
+                                </h4>
                             </div>
                             <div class="sc_promo_button sc_item_button">
 								<a href="https://wa.me/6581667290"><img src="../whatsapp2.png"><img></a>
@@ -78,6 +78,17 @@ function renderPianoDetails(json, document) {
     }
 
     imageComponent += `
+                                            <li class="eg-melody-wrapper" data-cobblesw="1" data-cobblesh="2">
+                                                <div class="esg-media-cover-wrapper">
+                                                    <div class="esg-entry-media"><img
+                                                            src="x.jpg" alt=""></div>
+                                                </div>
+                                            </li>
+        `
+
+
+    imageComponent += `
+
         <li data-cobblesw="1" data-cobblesh="2">
                                                 <iframe width="560" height="auto"
                                                         src="${json.videoLink}"
