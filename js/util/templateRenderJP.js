@@ -85,8 +85,14 @@ function renderPianoDetails(json, document) {
                                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                         allowfullscreen></iframe>
         </li>
+        <li data-cobblesw="1" data-cobblesh="2">
+                                                <iframe width="560" height="auto"
+                                                        src="${json.videoLink2}"
+                                                        title="YouTube video player" frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                        allowfullscreen></iframe>
+        </li>
     `
-
     imageComponent += `
                                         </ul>
                                     </div>
