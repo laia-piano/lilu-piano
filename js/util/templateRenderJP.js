@@ -72,20 +72,11 @@ function renderPianoDetails(json, document) {
                                                 <div class="esg-media-cover-wrapper">
                                                     <div class="esg-entry-media"><img
                                                             src="../../${folder}/${i}.jpg" alt=""></div>
-                                                    <div class="esg-entry-cover esg-fade" data-delay="0">
-                                                        <div class="esg-overlay esg-fade eg-melody-container"
-                                                             data-delay="0"></div>
-                                                        <div class="esg-center eg-melody-element-0-a esg-falldown"
-                                                             data-delay="0.1"><a
-                                                                class="eg-melody-element-0 esgbox"
-                                                                href="../../${folder}/${i}.jpg"><i
-                                                                class="eg-icon-search"></i></a></div>
-                                                    </div>
                                                 </div>
                                             </li>
         `
     }
-    
+
     imageComponent += `
         <li data-cobblesw="1" data-cobblesh="2">
                                                 <iframe width="560" height="auto"

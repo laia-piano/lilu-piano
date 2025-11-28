@@ -118,7 +118,7 @@ jQuery(document).ready(function() {
     showDropFilter: "hover",
     filterGroupClass: "esg-fgc-3",
     googleFonts: ['Open+Sans:300,400,600,700,800', 'Raleway:100,200,300,400,500,600,700,800,900', 'Droid+Serif:400,700'],
-    aspectratio: "4:3",
+    aspectratio: "3:2",
     responsiveEntries: [{
         width: 1400,
         amount: 3

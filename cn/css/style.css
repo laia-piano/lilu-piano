@@ -7273,15 +7273,11 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
     width: auto;
     height: auto;
     background: rgba(0, 0, 0, 0.4);
-    opacity: 1;
+    opacity: 0;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
     -o-transition: all ease 0.3s;
     transition: all ease 0.3s;
     z-index: 10000;
-}
-
-.eg-melody-wrapper:hover .esg-entry-media:after {
-    opacity: 0;
 }
