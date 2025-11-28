@@ -65,15 +65,6 @@ function renderPianoDetails(json, document) {
                                         <ul>
     `;
 
-    imageComponent += `
-        <li data-cobblesw="1" data-cobblesh="2">
-                                                <iframe width="560" height="auto"
-                                                        src="${json.videoLink}"
-                                                        title="YouTube video player" frameborder="0"
-                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                        allowfullscreen></iframe>
-        </li>
-    `
 
     for (let i = 1; i <= json.imageCount; i ++) {
         imageComponent += `
@@ -94,6 +85,16 @@ function renderPianoDetails(json, document) {
                                             </li>
         `
     }
+    
+    imageComponent += `
+        <li data-cobblesw="1" data-cobblesh="2">
+                                                <iframe width="560" height="auto"
+                                                        src="${json.videoLink}"
+                                                        title="YouTube video player" frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                        allowfullscreen></iframe>
+        </li>
+    `
 
     imageComponent += `
                                         </ul>
