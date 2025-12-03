@@ -26,7 +26,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/pBgpQFdLKyA?si=17uQOaa8r1CxChvW",
         "videoLink2": "https://www.youtube.com/embed/pwoCFCNcGfk?si=QPSNQSN0ytB1dy8A",
         "description": "Before WWII, the Queen Anne was specifically customized for royalties and highly influential figures from all over the world. Model M went on sale in 1911 and the design was finalized in 1918 where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades. <br><br> It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability.",
-         "description2": "安妮女王款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年。该琴于2020年重建，更换德国Abel击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。"
+        "description2": "安妮女王款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年。该琴于2020年重建，更换德国Abel击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。"
     },
     {
         "serial": 93144,
@@ -196,6 +196,44 @@ const pianosList = [
         "description": "This exceptional instrument underwent a thorough, high-end restoration in Europe from 2022 to 2024. All carved sections have been gilded with 24K gold leaf, showcasing extraordinary lUXury and craftsmanship. This model is extremely rare—one known identical piece was custom-made by Blüthner for the Dubai royal family and is currently housed in a top-tier hotel in Dubai, which built a dedicated Blüthner concert hall specifically to display and perform with this piano.<br><br>Founded in 1853 in Leipzig, Germany, Blüthner is regarded as one of the world's foremost lUXury piano manufacturers. Together with C. Bechstein (est. 1853, Germany) and Bösendorfer (est. 1828, Austria), Blüthner is celebrated as one of the 'Three Bs' of elite European piano craftsmanship. Over the course of its nearly 180-year history, Blüthner has produced just over 150,000 instruments in total.",
         "description2": "博兰斯勒Mod.10路易十四番号134019德国莱比锡1961年制造,2022-2024年欧洲深度重建,整琴雕花部分用24K黄金金箔鎏金,极度奢华。此款钢琴总产量极其稀少,已知迪拜王室与博兰斯勒定制一架同款收藏在迪拜的顶级酒店,酒店专门为此琴打造了一个博兰斯勒音乐厅。博兰斯勒1853年创立于德国莱比锡,世界一线豪琴品牌,与德国贝希斯坦(1853年创立)、奥地利贝森朵夫(1828年创立),并称欧洲3B。1853年至今180年左右的历史,总产量15万余台。",
 
+    },
+
+    // SCHIMMEL
+
+    {
+        "serial": 306897,
+        "uri": "images/product/sch306897/0.jpg",
+        "price": 30000,
+        "modelName": "Bespoke Edition",
+        "modelName2": "台灯私人订制款",
+        "brand": "SCHIMMEL",
+        "brand2": "舒密尔",
+        "origin": "Brunswick, Germany",
+        "origin2": "德国布伦瑞克",
+        "link": "sch306897.html",
+        "imageCount": 34,
+        "videoLink": "https://www.youtube.com/embed/7AdVlpWQajE?si=kiIZQaoNNSK2vBKl",
+        "videoLink2": "https://www.youtube.com/embed/6PKmS346rM4?si=IjLu8uZlf9AeBaCz",
+        "description": "Manufactured in 1993 in Brunswick, Germany, this Schimmel upright was privately commissioned by a wealthy Japanese family. Meticulously maintained, it remains in a condition comparable to a brand-new instrument, both internally and externally.<br><br>As a fully handcrafted, bespoke luxury piano, this Chippendale-style “lamp piano” is only available through full custom orders, with prices starting from SGD 100,000 and a lead time of 18–24 months. Surviving examples of this design are extremely rare, making it an exceptionally sought-after instrument in today’s market.",
+        "description2": "此琴为1993年德国布伦瑞克制造，家庭私人定制款，原琴主为日本富豪。钢琴保养极佳，内外成色均媲美新琴。这种纯手工定制的奢侈品钢琴，官方专卖店没有现货，只做整琴定制，并且价格至少10万新币以上，订购周期长达18-24个月。所以这种款式的舒密尔台灯琴存世数量非常稀少，市场上更是一琴难求。"
+    },
+
+    {
+        "serial": 154917,
+        "uri": "images/product/sch154917/0.jpg",
+        "price": 2500,
+        "modelName": "Bespoke Edition",
+        "modelName2": "台灯私人订制款",
+        "brand": "SCHIMMEL",
+        "brand2": "舒密尔",
+        "origin": "Brunswick, Germany",
+        "origin2": "德国布伦瑞克",
+        "link": "sch154917.html",
+        "imageCount": 28,
+        "videoLink": "https://www.youtube.com/embed/lRbj3i9WRTg?si=SNieW63WOxPdAzJm",
+        "videoLink2": "https://www.youtube.com/embed/Kko3CexB_dg?si=XXKN5FNmimHZNNdK",
+        "description": "Manufactured in 1976 in Brunswick, Germany, this Schimmel upright was privately commissioned by a wealthy French owner. Featuring a French Chippendale-style cabinet and a full German Renner action and hammers, it combines elegance with precise, professional performance.<br><br>In 2025, the piano underwent a selective European restoration, including new German tuning pins, strings, and keyboard, as well as a meticulously refinished cabinet. It now offers the appearance, touch, and longevity of a brand-new instrument, while retaining its vintage prestige.",
+        "description2": "此琴为1976年德国布伦瑞克制造，原琴主为法国富人，私人定制款，法式齐本德尔风格造型，采用德国全套Renner机芯、琴槌。此琴2025年在欧洲局部重建，更换德国弦轴、琴弦、键盘，外壳重新做漆，现已完全恢复全新钢琴的成色及使用寿命。"
     },
 
     // Other Euro Brand

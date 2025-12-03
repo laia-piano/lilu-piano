@@ -81,7 +81,7 @@ const pianosList = [
     {
         "serial": 4895521,
         "uri": "images/product/yam4895521/0.jpg",
-        "price": 6000,
+        "price": 6200,
         "modelName": "U1-Ultra (MX300MR)",
         "modelName2": "U1高配 (MX300MR)",
         "brand": "YAMAHA",
@@ -113,7 +113,7 @@ const pianosList = [
     {
         "serial": 4889393,
         "uri": "images/product/yam4889393/0.jpg",
-        "price": 6800,
+        "price": 7200,
         "modelName": "UX30A",
         "modelName2": "UX30A",
         "brand": "YAMAHA",
@@ -194,7 +194,7 @@ const pianosList = [
     {
         "serial": 4909810,
         "uri": "images/product/yam4909810/0.jpg",
-        "price": 6500,
+        "price": 7000,
         "modelName": "U3-Ultra(W3AMhC)",
         "modelName2": "U3高配(W3AMhC)",
         "brand": "YAMAHA",
@@ -256,6 +256,26 @@ const pianosList = [
         "videoLink2": "https://www.youtube.com/embed/o9Jbwf_yTeg?si=tbUnUkMFOGb5kVt1",
         "description": "Launched in 1995, the YAMAHA A1 is the smallest grand piano ever made in Japan by YAMAHA, measuring only 149 cm in length. It was developed to meet the needs of customers who admired the C1 model but had limited living space and did not want the feel of an upright piano. As a result, the A1 was introduced as a more compact alternative to the C1, offering the same level of performance in a smaller footprint — a perfect solution for high-quality grand piano experience in small apartments. <br><br>In 2010, YAMAHA discontinued the A1 due to its production costs being nearly identical to the C1, which began to affect the sales of both the C1 and the GC1. Since then, YAMAHA has replaced its compact grand offerings with the more cost-effective GB1 and GN1 models, manufactured in Indonesia with lower-grade materials.",
         "description2": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period. <br><br>The HQ Series, which includes the U100 and U300 models, features an original factory-installed automatic playing system, comparable to the currently available DU1ENST. We exclusively offer over 2,000 high-quality automatic playing pieces for our MX/SX and HQ customers free of charge. The SX/SXG suffix indicates YAMAHA's original high-precision silent system, allowing for late-night practice without disturbing others. It is the most cost-effective choice for beginner pianos in all of Singapore.",
+    },
+
+    // KAWAI
+
+    {
+        "serial": 2432240,
+        "uri": "images/product/kaw2432240/0.jpg",
+        "price": 6800,
+        "modelName": "K80",
+        "modelName2": "K80",
+        "brand": "KAWAI",
+        "brand2": "卡瓦伊",
+        "origin": "Japan",
+        "origin2": "日本",
+        "link": "kaw2432240.html",
+        "imageCount": 17,
+        "videoLink": "https://www.youtube.com/embed/Net1Eu8qTC4?si=61nP_1PvWXbHhnpx",
+        "videoLink2": "https://www.youtube.com/embed/vezoqkfL_8k?si=9Y1AriyQwqS4DT5O",
+        "description": "The Kawai K-80 is the flagship upright piano of KAWAI Japan, produced for the domestic market between 1998 and 2002. Featuring a black high-gloss resin finish, a large music rack, 132 cm height, six back posts, and a premium Hokkaido spruce soundboard, it also incorporates KAWAI’s exclusive patented soundboard hole design.<br><br>ALEART: The K-80 was succeeded by the K-8, produced from 2003 to 2014. From 2015 onward, the highest-grade K-series piano for the Japanese domestic market has been the K-700. There was never a K800 model in the Japanese market for sale. The Kawai domestic flagship piano in Japan is the model C-980RE.",
+        "description2": "卡瓦依K-80是日本KAWAI公司1998-2002年期间在日本内销的黑色树脂亮光立式的旗舰型号。大谱架造型，132高度，6背柱、北海道高级云杉音板，独家透音孔专利设计。<br><br>注意：K80的下一代型号是K-8，生产与2003-2014年期间。而从2015年开始，日本内销的K系列最高级只有K700，K8系的钢琴在日本本土不再发售。所以日本本土没有K800这个型号，日本内销旗舰机型是C-980RE。",
     },
 
     // OHHASHI
