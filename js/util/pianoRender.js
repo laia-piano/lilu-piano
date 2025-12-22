@@ -49,14 +49,31 @@ function renderList (json, domId, document) {
 
     let component = '';
     renderingList.forEach(piano => {
-        const {uri, modelName, price, brand, link, origin} = piano;
+        const {uri, modelName, price, brand, link, origin, pianostatus} = piano;
         component += `
                     <li class="product type-product has-post-thumbnail column-1_3">
                       <div class="post_item_wrap">
                         <div class="post_featured">
-                          <div class="post_thumb">
-                              <img width="300" height="300" src="${uri}" alt="product-7" title="product-7" /> </a>
-                         </div>
+                          <div class="post_thumb" style="position: relative;">
+                              <img src="${uri}" alt="product-7" title="product-7">
+                    `
+        if (pianostatus == "sold"){
+                        component += `
+                              <img src="../images/sold.png" style="position: absolute; top:15%; left:15%; width:70%; height: auto; pointer-events: none; border:none; ">
+                          `
+                              }
+        else if (pianostatus == "pre"){
+                        component += `
+                              <img src="../images/pre.png" style="position: absolute; top:20%; left:15%; width:70%; height: auto; pointer-events: none; border:none; ">
+                          `
+                              }
+        else if (pianostatus == "out"){
+                        component += `
+                              <img src="../images/out.png" style="position: absolute; top:20%; left:15%; width:70%; height: auto; pointer-events: none; border:none; ">
+                          `
+                              }
+        component += `
+                          </div>
                         <div class="post_content">
                           <h3>${brand} <br> ${modelName}</h3>
                           <h4 style="color: #59c6bc; line-height:1.6em; margin-bottom:0.4em">${origin} <br> S$${price}</h4>

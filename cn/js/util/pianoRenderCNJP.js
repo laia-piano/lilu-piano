@@ -49,13 +49,30 @@ function renderList(json, domId, domcument) {
 
     let component = '';
     renderingList.forEach(piano => {
-        const { uri, modelName2, price, brand2, link } = piano;
+        const { uri, modelName2, price, brand2, link ,pianostatus} = piano;
         component += `
                     <li class="product type-product has-post-thumbnail column-1_3">
                         <div class="post_item_wrap">
                         <div class="post_featured">
                             <div class="post_thumb">
-                                <img width="300" height="300" src="../${uri}" alt="product-7" title="product-7" /> </a>
+                                <img src="../${uri}" alt="product-7" title="product-7" />
+                                `
+        if (pianostatus == "sold"){
+                        component += `
+                              <img src="../../images/sold.png" style="position: absolute; top:15%; left:15%; width:70%; height: auto; pointer-events: none; border:none; ">
+                          `
+                              }
+        else if (pianostatus == "pre"){
+                        component += `
+                              <img src="../../images/pre.png" style="position: absolute; top:20%; left:15%; width:70%; height: auto; pointer-events: none; border:none; ">
+                          `
+                              }
+        else if (pianostatus == "out"){
+                        component += `
+                              <img src="../../images/out.png" style="position: absolute; top:20%; left:15%; width:70%; height: auto; pointer-events: none; border:none; ">
+                          `
+                              }
+        component += `
                         </div>
                         <div class="post_content">
                             <h3>${brand2} <br> ${modelName2}</h3>

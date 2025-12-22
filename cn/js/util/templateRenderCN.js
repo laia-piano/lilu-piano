@@ -76,14 +76,14 @@ function renderPianoDetails(json, document) {
         `
     }
 
-    // imageComponent += `
-    //                                         <li class="eg-melody-wrapper" data-cobblesw="1" data-cobblesh="2">
-    //                                             <div class="esg-media-cover-wrapper">
-    //                                                 <div class="esg-entry-media"><img
-    //                                                         src="../cn.jpg" alt=""></div>
-    //                                             </div>
-    //                                         </li>
-    //     `
+    imageComponent += `
+                                            <li class="eg-melody-wrapper" data-cobblesw="1" data-cobblesh="2">
+                                                <div class="esg-media-cover-wrapper">
+                                                    <div class="esg-entry-media"><img
+                                                            src="../cn.jpg" alt=""></div>
+                                                </div>
+                                            </li>
+        `
 
 
     imageComponent += `

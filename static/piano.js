@@ -26,8 +26,9 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/pBgpQFdLKyA?si=17uQOaa8r1CxChvW",
         "videoLink2": "https://www.youtube.com/embed/pwoCFCNcGfk?si=QPSNQSN0ytB1dy8A",
         "description": "Before WWII, the Queen Anne was specifically customized for royalties and highly influential figures from all over the world. Model M went on sale in 1911 and the design was finalized in 1918 where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades. <br><br> It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability.",
-        "description2": "安妮女王款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年。该琴于2020年重建，更换德国Abel击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。"
-    },
+        "description2": "安妮女王款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年。该琴于2020年重建，更换德国Abel击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。",
+        "pianostatus": "on stock",
+    }, // complete
     {
         "serial": 93144,
         "uri": "images/product/ste93144/0.jpg",
@@ -42,8 +43,9 @@ const pianosList = [
         "imageCount": 41,
         "videoLink": "https://www.youtube.com/embed/-ppviNhZpPs",
         "description": "Before WWII, the Louis XVI was specifically customized for royalties and highly influential figures from all over the world. The design of model A was finalized in 1896, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades.<br><br>It was then reconstructed in 2020, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel Germany. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability.",
-        "description2": "路易十六款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，A型号设计定型年份为1896年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，该琴于2020年重建，更换德国Abel击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。"
-    },
+        "description2": "路易十六款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，A型号设计定型年份为1896年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，该琴于2020年重建，更换德国Abel击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。",
+        "pianostatus": "sold",
+    }, // sold
     {
         "serial": 261296,
         "uri": "images/product/ste261296/0.jpg",
@@ -56,10 +58,12 @@ const pianosList = [
         "origin2": "美国纽约",
         "link": "ste261296.html",
         "imageCount": 39,
-        "videoLink": "https://www.youtube.com/embed/OCnhIDL8yWA",
+        "videoLink": "https://www.youtube.com/embed/OCnhIDL8yWA?si=1-DK0p5cdQNBWklU",
+        "videoLink2": "https://www.youtube.com/embed/pwoCFCNcGfk?si=QPSNQSN0ytB1dy8A",
         "description": "Model M went on sale in 1911 and the design was finalized in 1918, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades.<br><br> It was then reconstructed in USA in 2020, where the actions, hammers and other corresponding components such as the strings and consumables were all replaced with those produced by original STEINWAY factory USA. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability.",
-        "description2": "M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，该琴于2020年美国重建，更换施坦威原厂击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。"
-    },
+        "description2": "M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，该琴于2020年美国重建，更换施坦威原厂击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。",
+        "pianostatus": "on stock",
+    }, // need update
     {
         "serial": 369476,
         "uri": "images/product/ste369476/0.jpg",
@@ -74,8 +78,9 @@ const pianosList = [
         "imageCount": 39,
         "videoLink": "https://www.youtube.com/embed/sYndBolCN4I",
         "description": "Model L and O are essentially identical in terms of design. The design of Model O was completed in 1899 and the structure of the design has remained unchanged throughout. Since 1923 in New York, the producers of Steinway's Grand Piano has renamed Model O to Model L, it wasn't until 2006 when they decided to revert its name to Model O, hence, the sole difference between these 2 models is simply their names. The reason behind the change between 1923 to 2005 was to cater to the American way of calling the 6 Foot Grand Piano.<br><br> The sound board of this piano is perfect and there is almonst no wear and tear inside the action. No need for renovation, only the appearance was fixed.",
-        "description2": "L型号再设计上完全等于O型，O型于1899年设计定型，至今在结构设计上没有变化。从1923年开始，美国纽约产的180长度施坦威三角钢琴将O型改名为L型，直到2006年后才将L改回为O型命名。两个型号之间只有名称不同，之所以在1923-2005年期间更名为L是为了迎合美国对6尺琴的称呼更符合美国人的习惯。"
-    },
+        "description2": "L型号再设计上完全等于O型，O型于1899年设计定型，至今在结构设计上没有变化。从1923年开始，美国纽约产的180长度施坦威三角钢琴将O型改名为L型，直到2006年后才将L改回为O型命名。两个型号之间只有名称不同，之所以在1923-2005年期间更名为L是为了迎合美国对6尺琴的称呼更符合美国人的习惯。",
+        "pianostatus": "on stock",
+    }, // need update
     {
         "serial": 193751,
         "uri": "images/product/ste193751/0.jpg",
@@ -90,8 +95,9 @@ const pianosList = [
         "imageCount": 40,
         "videoLink": "https://www.youtube.com/embed/0MvhRPi8n1w",
         "description": "Model M went on sale in 1911 and the design was finalized in 1918, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades. <br><br> It was then reconstructed in USA in 2020, where the actions, hammers and other corresponding components such as the strings and consumables were all replaced with those produced by original STEINWAY factory USA. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability.",
-        "description2": "M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，该琴于2020年美国重建，更换施坦威原厂击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。"
-    },
+        "description2": "M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，该琴于2020年美国重建，更换施坦威原厂击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。",
+        "pianostatus": "sold",
+    }, // sold
     {
         "serial": 270652,
         "uri": "images/product/ste270652/0.jpg",
@@ -107,7 +113,8 @@ const pianosList = [
         "videoLink": "www.youtube.com/embed/aztaAeq9aWA?si=vTgZGiROJH1GyO4G",
         "description": "Originally introduced in 1911 and finalized in design by 1918, the Model M-170 is a celebrated small grand piano within the Steinway lineup. This particular instrument underwent an extensive restoration in Europe in 2009, during which all original factory consumables were replaced, restoring the piano to the performance standards of a new instrument.<br><br>Remarkably, in the more than ten years since its restoration, the piano has seen very little use. As a result, internal components show virtually no signs of wear—an exceptionally rare condition for an instrument of this age.",
         "description2": "施坦威M170德国汉堡1930年产，番号270652。M170于1911年发售，1918年设计定型。此琴与2009年在欧洲深度重建，更换所有原厂耗材，恢复新琴的使用性能。难能可贵的是，重建后的10余年里，使用率非常低，内部零件几乎没什么磨损。",
-    },
+        "pianostatus": "on stock",
+    }, // complete
     {
         "serial": 285121,
         "uri": "images/product/ste285121/0.jpg",
@@ -123,7 +130,8 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/aztaAeq9aWA?si=XbIRUTtBbJ9liL4s",
         "videoLink2": "https://www.youtube.com/embed/8cZnDEsi9Ng?si=HVdK8Okp6joaESfK",
         "description": "Model M went on sale in 1911 and the design was finalized in 1918, where its structure has remained untouched since its procreation. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades. <br><br> It was then reconstructed in USA in 2020, where the actions, hammers and other corresponding components such as the strings and consumables were all replaced with those produced by original STEINWAY factory USA. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability.",
-        "description2": "M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，该琴于2020年美国重建，更换施坦威原厂击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。"
+        "description2": "M型号于1911年开始发售，设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，该琴于2020年美国重建，更换施坦威原厂击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。",
+        "pianostatus": "sold",
     },
     {
         "serial": 109748,
@@ -140,7 +148,8 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/bI4ZPc7HVYc?si=-RKD1wFVAd89w_i3",
         "videoLink2": "https://www.youtube.com/embed/BytYNAq4SvU?si=vBIdLq5CjN-u8eiU",
         "description": "The Louis XV-style Steinway was, prior to World War II, custom-made exclusively for royalty, nobility, and distinguished statesmen around the world. The Model B was finalized in 1885, and its structural design has remained unchanged ever since. All materials were sourced from top-grade, now-extinct post-war timbers: the soundboard and other tonal components were crafted from slow-grown spruce, approximately 500 years old, and naturally seasoned for 30 years.<br><br>This particular Steinway B211 Louis XV, serial number 109748, was handcrafted in Hamburg, Germany in 1902. It is an exceptionally rare private commission. In 2024, it underwent a comprehensive restoration in Europe, fully returning it to the condition and performance of a brand-new instrument. The current price of a new model reaches as high as SGD 1.3 million.",
-        "description2": "路易十五款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，B型号设计定型年份为1885年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年。此台施坦威B211路易十五。番号109748德国汉堡1902年制造， 极其稀有的私人定制款 。2024年欧洲深度重建， 完全恢复新琴一样的成色和使用性能，新琴售价高达130万新币。"
+        "description2": "路易十五款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，B型号设计定型年份为1885年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年。此台施坦威B211路易十五。番号109748德国汉堡1902年制造， 极其稀有的私人定制款 。2024年欧洲深度重建， 完全恢复新琴一样的成色和使用性能，新琴售价高达130万新币。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 611419,
@@ -158,6 +167,7 @@ const pianosList = [
         "videoLink2": "https://www.youtube.com/embed/88V_jr_UWEE?si=u8eqo1MFyB7RZeaa",
         "description": "Introduced in 1906, the Model K-132 has long been regarded as the flagship upright model of Steinway & Sons. Instruments manufactured in Hamburg, Germany, prior to 2019 were predominantly equipped with three pedals. In contrast, K-132 models produced at the New York factory have featured three pedals consistently since the post World WarII era, with the middle pedal offering the sostenuto function—typically reserved for grand pianos.<br><br>This particular instrument, serial number 611419, was manufactured in Hamburg, Germany, in 2019. It comes from the inventory of a European piano dealer and has been preserved as a showroom display model.",
         "description2": "施坦威K132于是该公司立式型号的招牌产品。1906年开始发售,德国汉堡生产的K132在2019年之前绝大多数为3踏板,纽约产K132二战后至今均为3踏板,且中踏板为三角琴专属的选择性延音功能。此琴番号611419,德国汉堡2019年制造,欧洲琴行库存展品。",
+        "pianostatus": "sold",
     },
 
     // Blüthner
@@ -177,7 +187,8 @@ const pianosList = [
         "imageCount": 26,
         "videoLink": "https://www.youtube.com/embed/ICski0aGeqg",
         "description": "Blüthner, a prestigious name established in 1853 in Leipzig, Germany, it is one of the 6 biggest names in the grand piano manufacturing industry. Together with Bösendorfer and C. Bechstein, they were known collectively and affectionately as the 3Bs of Europe. Before the WWII, Blüthner was effectively the most influential brand in the global market, gaining the reputation of being the national jewel of Germany. This particular piece was manufactured during the golden age of Blüthner, with the particular design (Mod.10) being finalized in 1924. The materials chosen to construct this particular piano were all derived from top quality timber that no longer exist in the market ever since the end of WWII. 500 year old spruces from frigid region were specially picked to create the sound board and the other sound components of the piano, that was then left to mature naturally for 3 decades. <br><br> It was then reconstructed in Japan in 2019, where the action, hammer and other corresponding components such as the strings and consumables were all replaced with those produced by world class manufacturers such as Abel and Renner. Durables such as the shell, sound board and iron plate were also completely refurbished, reviving its past glory and restoring its timbre from the golden age, effectively increasing its lifespan and durability.",
-        "description2": "1853年成立于德国莱比锡的顶级品牌，与Bosendorfer贝森朵夫（1828年成立于奥地利维也纳）、C.Bechstein贝希斯坦（1853年成立于德国柏林）并称欧洲3B，是世界一线豪琴6大品牌之一，在二战之前，该品牌影响力是全球顶级豪琴第一，至今被誉为德国国宝。此琴为博兰斯勒黄金时期制造，Mod.10设计定型年份为1924年，选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，琴键也是珍贵的xy和乌木。该琴于2019年在日本重建，更换德国Abel、Renner顶级击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。"
+        "description2": "1853年成立于德国莱比锡的顶级品牌，与Bosendorfer贝森朵夫（1828年成立于奥地利维也纳）、C.Bechstein贝希斯坦（1853年成立于德国柏林）并称欧洲3B，是世界一线豪琴6大品牌之一，在二战之前，该品牌影响力是全球顶级豪琴第一，至今被誉为德国国宝。此琴为博兰斯勒黄金时期制造，Mod.10设计定型年份为1924年，选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年，琴键也是珍贵的xy和乌木。该琴于2019年在日本重建，更换德国Abel、Renner顶级击弦机、琴锤等顶级对应配件，琴弦等耗材全部换新，钢板、音板、外壳等耐用建全部脱漆翻新，保留黄金时期的音色并恢复全新钢琴一样的使用性能及寿命。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 134019,
@@ -195,6 +206,7 @@ const pianosList = [
         "videoLink2": "https://www.youtube.com/embed/Nl50rlHkrdc?si=LpSQ99z3Zb1VMFty",
         "description": "This exceptional instrument underwent a thorough, high-end restoration in Europe from 2022 to 2024. All carved sections have been gilded with 24K gold leaf, showcasing extraordinary lUXury and craftsmanship. This model is extremely rare—one known identical piece was custom-made by Blüthner for the Dubai royal family and is currently housed in a top-tier hotel in Dubai, which built a dedicated Blüthner concert hall specifically to display and perform with this piano.<br><br>Founded in 1853 in Leipzig, Germany, Blüthner is regarded as one of the world's foremost lUXury piano manufacturers. Together with C. Bechstein (est. 1853, Germany) and Bösendorfer (est. 1828, Austria), Blüthner is celebrated as one of the 'Three Bs' of elite European piano craftsmanship. Over the course of its nearly 180-year history, Blüthner has produced just over 150,000 instruments in total.",
         "description2": "博兰斯勒Mod.10路易十四番号134019德国莱比锡1961年制造,2022-2024年欧洲深度重建,整琴雕花部分用24K黄金金箔鎏金,极度奢华。此款钢琴总产量极其稀少,已知迪拜王室与博兰斯勒定制一架同款收藏在迪拜的顶级酒店,酒店专门为此琴打造了一个博兰斯勒音乐厅。博兰斯勒1853年创立于德国莱比锡,世界一线豪琴品牌,与德国贝希斯坦(1853年创立)、奥地利贝森朵夫(1828年创立),并称欧洲3B。1853年至今180年左右的历史,总产量15万余台。",
+        "pianostatus": "on stock",
 
     },
 
@@ -215,13 +227,14 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/7AdVlpWQajE?si=kiIZQaoNNSK2vBKl",
         "videoLink2": "https://www.youtube.com/embed/6PKmS346rM4?si=IjLu8uZlf9AeBaCz",
         "description": "Manufactured in 1993 in Brunswick, Germany, this Schimmel upright was privately commissioned by a wealthy Japanese family. Meticulously maintained, it remains in a condition comparable to a brand-new instrument, both internally and externally.<br><br>As a fully handcrafted, bespoke luxury piano, this Chippendale-style “lamp piano” is only available through full custom orders, with prices starting from SGD 100,000 and a lead time of 18–24 months. Surviving examples of this design are extremely rare, making it an exceptionally sought-after instrument in today’s market.",
-        "description2": "此琴为1993年德国布伦瑞克制造，家庭私人定制款，原琴主为日本富豪。钢琴保养极佳，内外成色均媲美新琴。这种纯手工定制的奢侈品钢琴，官方专卖店没有现货，只做整琴定制，并且价格至少10万新币以上，订购周期长达18-24个月。所以这种款式的舒密尔台灯琴存世数量非常稀少，市场上更是一琴难求。"
+        "description2": "此琴为1993年德国布伦瑞克制造，家庭私人定制款，原琴主为日本富豪。钢琴保养极佳，内外成色均媲美新琴。这种纯手工定制的奢侈品钢琴，官方专卖店没有现货，只做整琴定制，并且价格至少10万新币以上，订购周期长达18-24个月。所以这种款式的舒密尔台灯琴存世数量非常稀少，市场上更是一琴难求。",
+        "pianostatus": "on stock",
     },
 
     {
         "serial": 154917,
         "uri": "images/product/sch154917/0.jpg",
-        "price": 2500,
+        "price": 25000,
         "modelName": "Bespoke Edition",
         "modelName2": "台灯私人订制款",
         "brand": "SCHIMMEL",
@@ -233,7 +246,8 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/lRbj3i9WRTg?si=SNieW63WOxPdAzJm",
         "videoLink2": "https://www.youtube.com/embed/Kko3CexB_dg?si=XXKN5FNmimHZNNdK",
         "description": "Manufactured in 1976 in Brunswick, Germany, this Schimmel upright was privately commissioned by a wealthy French owner. Featuring a French Chippendale-style cabinet and a full German Renner action and hammers, it combines elegance with precise, professional performance.<br><br>In 2025, the piano underwent a selective European restoration, including new German tuning pins, strings, and keyboard, as well as a meticulously refinished cabinet. It now offers the appearance, touch, and longevity of a brand-new instrument, while retaining its vintage prestige.",
-        "description2": "此琴为1976年德国布伦瑞克制造，原琴主为法国富人，私人定制款，法式齐本德尔风格造型，采用德国全套Renner机芯、琴槌。此琴2025年在欧洲局部重建，更换德国弦轴、琴弦、键盘，外壳重新做漆，现已完全恢复全新钢琴的成色及使用寿命。"
+        "description2": "此琴为1976年德国布伦瑞克制造，原琴主为法国富人，私人定制款，法式齐本德尔风格造型，采用德国全套Renner机芯、琴槌。此琴2025年在欧洲局部重建，更换德国弦轴、琴弦、键盘，外壳重新做漆，现已完全恢复全新钢琴的成色及使用寿命。",
+        "pianostatus": "on stock",
     },
 
     // Other Euro Brand
@@ -252,7 +266,26 @@ const pianosList = [
         "imageCount": 40,
         "videoLink": "https://www.youtube.com/embed/cbveNWvrUkc",
         "description": "Established back in 1835 in Brunswick, Germany, Grotrian-Steinweg was co-founded by Heinrich Engelhard Steinweg (founded Steinway in 1853, New York after moving to the USA) and Friedrich Grotrian. The G275, being the flagship model of the company, is a grand piano that was mainly used in concerts. <br><br> This particular piece was originally used as a decorative piece in an English mansion. As it was rarely used, thus it is in an almost pristine condition, with very minimal wear and tear.",
-        "description2": "1835年创立于德国布伦瑞克，由Grotrian及Steinweg（1853年创立于纽约的Steinway德国移美后裔家族）联合创立，G275为Grotrian Steinweg品牌的旗舰型号，专用于音乐会演奏的九尺钢琴。此琴原为英国豪宅的摆设，使用率很低，磨损程度很少，保养状况很好。"
+        "description2": "1835年创立于德国布伦瑞克，由Grotrian及Steinweg（1853年创立于纽约的Steinway德国移美后裔家族）联合创立，G275为Grotrian Steinweg品牌的旗舰型号，专用于音乐会演奏的九尺钢琴。此琴原为英国豪宅的摆设，使用率很低，磨损程度很少，保养状况很好。",
+        "pianostatus": "on stock",
+    },
+    {
+        "serial": "Royal Bespoke",
+        "uri": "images/product/gav146/0.jpg",
+        "price": 45000,
+        "modelName": "Royal Bespoke Edition",
+        "modelName2": "皇家定制",
+        "brand": "Gaveau",
+        "brand2": "加沃",
+        "origin": "Paris, France",
+        "origin2": "法国巴黎",
+        "link": "gav146.html",
+        "imageCount": 41,
+        "videoLink": "https://www.youtube.com/embed/8bHMfnC7FXE?si=y4o-mkXHeAThT7eu",
+        "videoLink2": "https://www.youtube.com/embed/ASt7nLD9_RY?si=jbVsGgUC5WmxfxtU",
+        "description": "Founded in 1847 in Paris, France, Gaveau is regarded as one of the three great French piano brands, alongside Pleyel and Erard. It was the preferred choice of Chopin, Liszt, Debussy, and Ravel, also the 20th-century French virtuoso György Cziffra—famed.<br><br>This particular Gaveau was personally commissioned by Gabriel Gaveau and took five years to build for the 1911 Paris Exposition Universelle. At 146 cm in length, it showcases masterful craftsmanship and design, including rare wood veneers, full-range independent stringing, and a high-precision double escapement action. The cast iron plate bears Gaveau’s own signature, which was carefully preserved during a complete restoration by top French piano restorer Félix Frey in 2016. Every consumable part was meticulously reproduced 1:1, with the exception of the plate, which was left untouched, restoring the piano entirely to its 1911 condition over a three-year restoration period.",
+        "description2": "GAVEAU：加沃，1847年创立于法国巴黎，与普莱耶、埃拉德并称法国三大钢琴品牌，肖邦、李斯特、德彪西、拉威尔都钟爱的品牌，20世纪法国炫技钢琴大师齐夫拉（野蜂飞舞八度版改编者）最爱的的品牌。这台加沃是加布里埃尔·加沃本人为了参加1911年法国巴黎万国博览会历时5年特别制造，146cm的长度却应用了在现在看来都登峰造极的工艺与设计，各种稀有木材裁剪拼接，全音域独立挂弦，高精度复振击弦机。钢板上有加沃的亲笔签名，所以此琴在2016年由法国顶级钢琴修复大师菲利克斯·弗雷重建时，特别保留钢板上的签名，除了钢板没有重新喷漆，钢琴的所有耗材全部1:1复刻原琴，修复周期长达3年，完全恢复1911年新琴时的状态。",
+        "pianostatus": "on stock",
     },
 
 ];

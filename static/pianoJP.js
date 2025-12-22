@@ -29,6 +29,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/OCnhIDL8yWA",
         "description": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period. <br><br>The HQ Series, which includes the U100 and U300 models, features an original factory-installed automatic playing system, comparable to the currently available DU1ENST. We exclusively offer over 2,000 high-quality automatic playing pieces for our MX/SX and HQ customers free of charge. The SX/SXG suffix indicates YAMAHA's original high-precision silent system, allowing for late-night practice without disturbing others. It is the most cost-effective choice for beginner pianos in all of Singapore.",
         "description2": "雅马哈（YAMAHA）于1887年在日本滨松创立，并于1901年开始生产三角钢琴。如今，它已成为全球流水线钢琴制造的领导者。雅马哈在1987年至1997年间达到巅峰时期，在设计、工艺和材料选择上都达到了前所未有的高度。在这一时期，享誉盛名的U系列实现了全面标准化。HQ系列（包括U100和U300型号）配备了雅马哈原厂自动演奏系统，可与现今的DU1ENST相媲美。对于我们的MX/SX与HQ客户，我们独家免费提供超过2000首高品质自动演奏曲目。带有SX或SXG后缀的型号则配备了雅马哈原厂高精度静音系统，使得演奏者可以在深夜练习而不打扰他人。这也使其成为新加坡最具性价比的入门级钢琴之选。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 5209341,
@@ -45,6 +46,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/OCnhIDL8yWA",
         "description": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period. <br><br>The HQ Series, which includes the U100 and U300 models, features an original factory-installed automatic playing system, comparable to the currently available DU1ENST. We exclusively offer over 2,000 high-quality automatic playing pieces for our MX/SX and HQ customers free of charge. The SX/SXG suffix indicates YAMAHA's original high-precision silent system, allowing for late-night practice without disturbing others. It is the most cost-effective choice for beginner pianos in all of Singapore.",
         "description2": "雅马哈（YAMAHA）于1887年在日本滨松创立，并于1901年开始生产三角钢琴。如今，它已成为全球流水线钢琴制造的领导者。雅马哈在1987年至1997年间达到巅峰时期，在设计、工艺和材料选择上都达到了前所未有的高度。在这一时期，享誉盛名的U系列实现了全面标准化。HQ系列（包括U100和U300型号）配备了雅马哈原厂自动演奏系统，可与现今的DU1ENST相媲美。对于我们的MX/SX与HQ客户，我们独家免费提供超过2000首高品质自动演奏曲目。带有SX或SXG后缀的型号则配备了雅马哈原厂高精度静音系统，使得演奏者可以在深夜练习而不打扰他人。这也使其成为新加坡最具性价比的入门级钢琴之选。",
+        "pianostatus": "out",
     },
     {
         "serial": 5249006,
@@ -61,6 +63,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/OCnhIDL8yWA",
         "description": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period. <br><br>The HQ Series, which includes the U100 and U300 models, features an original factory-installed automatic playing system, comparable to the currently available DU1ENST. We exclusively offer over 2,000 high-quality automatic playing pieces for our MX/SX and HQ customers free of charge. The SX/SXG suffix indicates YAMAHA's original high-precision silent system, allowing for late-night practice without disturbing others. It is the most cost-effective choice for beginner pianos in all of Singapore.",
         "description2": "雅马哈（YAMAHA）于1887年在日本滨松创立，并于1901年开始生产三角钢琴。如今，它已成为全球流水线钢琴制造的领导者。雅马哈在1987年至1997年间达到巅峰时期，在设计、工艺和材料选择上都达到了前所未有的高度。在这一时期，享誉盛名的U系列实现了全面标准化。HQ系列（包括U100和U300型号）配备了雅马哈原厂自动演奏系统，可与现今的DU1ENST相媲美。对于我们的MX/SX与HQ客户，我们独家免费提供超过2000首高品质自动演奏曲目。带有SX或SXG后缀的型号则配备了雅马哈原厂高精度静音系统，使得演奏者可以在深夜练习而不打扰他人。这也使其成为新加坡最具性价比的入门级钢琴之选。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 5013211,
@@ -77,6 +80,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/oh-ZvDu9zOk?si=-872WQ49RK3K6uQt",
         "description": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The MX/SX models, which include the U10BL and U10A, feature an original factory-installed automatic playing system, comparable to the currently available DU1ENST. We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore.",
         "description2": "雅马哈1887年创立于日本滨松，1901年开始生产三角钢琴。是全球流水线钢琴制造业的领航者。雅马哈于1987年开始达到真正的巅峰，至1997年期间，不论产品设计、工艺及用料，都是空前绝后的水平。U系列自此开始完全设计定型。MX/SX为U10BL及U10A原厂搭载自动演奏系统专属型号，相当于目前全新在售的DU1ENST。OP免费为自家SX/MX客户独家提供2000余首高品质自动演奏曲目。是全新加坡初学钢琴最具性价比的选择，没有之一。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 4895521,
@@ -93,6 +97,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/_snCD_dc_Ac?si=cXV3Q5XJ46x4lWtd",
         "description": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The MX3 series, introduced at the same time, featured exclusive models equipped with automatic playing systems, akin to the current DU1ENST with the option of YUS5-grade hammers and wooden finishes (the new piano's price rivals that of the SU7). YAMAHA offered over 2,000 high-quality automatic playing tracks exclusively for its SX/MX customers, making it the most cost-effective choice for beginner pianists in Singapore, without comparison.",
         "description2": "雅马哈1887年创立于日本滨松，1901年开始生产三角钢琴。是全球流水线钢琴制造业的领航者。雅马哈于1987年开始达到真正的巅峰，至1997年期间，不论产品设计、工艺及用料，都是空前绝后的水平。U系列自此开始完全设计定型。MX3系为同期UX10BL和UX10A以及WX1A（米字背+W系列两大高端型号的选材）原厂搭载自动演奏系统专属型号，相当于目前全新在售的DU1ENST再选配YUS5级琴槌及木色外壳（新琴售价直逼SU7）。OP免费为自家SX/MX客户独家提供2000余首高品质自动演奏曲目。是全新加坡初学钢琴最具性价比的选择，没有之一。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 5312251,
@@ -109,6 +114,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/_LxXuoKngdo?si=nehm5kjrfJIVH24g",
         "description": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The MX/SX models, which include the U10BL and U10A, feature an original factory-installed automatic playing system, comparable to the currently available DU1ENST. We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore.",
         "description2": "雅马哈1887年创立于日本滨松，1901年开始生产三角钢琴。是全球流水线钢琴制造业的领航者。雅马哈于1987年开始达到真正的巅峰，至1997年期间，不论产品设计、工艺及用料，都是空前绝后的水平。U系列自此开始完全设计定型。MX/SX为U10BL及U10A原厂搭载自动演奏系统专属型号，相当于目前全新在售的DU1ENST。OP免费为自家SX/MX客户独家提供2000余首高品质自动演奏曲目。是全新加坡初学钢琴最具性价比的选择，没有之一。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 4889393,
@@ -125,6 +131,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/UZNeG0Zt6WM?si=M7jbDXQUFta-Yov_",
         "description": "The fifth generation UX series from Japan's YAMAHA, featuring true 米 backs, was only available between 1990 and 1997. Due to high manufacturing costs and dwindling stocks of old wood after 1997, along with Japan's economic downturn, 米 back production ceased. Although the UX series was first released in 1975, the first four generations before 1990 featured a three-pillar crossing and were not 米, with significant differences in manufacturing processes, design, and material configuration compared to the later two generations. The playing experience of the true 米 back is much better than the current YUS series on sale. It's an essential collectible for YAMAHA piano enthusiasts.",
         "description2": "日本YAMAHA第五代UX系列，真正的大米字背架，只在1990-1997年之间发售，由于制造成本高昂加之1997年后日本库存老料木材消耗殆尽以及日本经济下行，大米字背停产。虽然UX系列早在1975年发售，但是1990年之前的四代UX为三柱交叉，并非米字，且制造工艺与设计以及材料配置与后两代大米字背有很大差距。真正大米字背的弹奏效果要比如今在售的YUS系列好很多。是YAMAHA钢琴发烧友的必备藏品。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 5066967,
@@ -141,6 +148,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/hLqHSBuKzfg?si=3giIC1sFwUTh7Kxx",
         "description": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The MX/SX models, which include the U10BL and U10A, feature an original factory-installed automatic playing system, comparable to the currently available DU1ENST, coupled with cat paw curved legs, making it highly aesthetic and valuable.We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore.",
         "description2": "雅马哈1887年创立于日本滨松，1901年开始生产三角钢琴。是全球流水线钢琴制造业的领航者。雅马哈于1987年开始达到真正的巅峰，至1997年期间，不论产品设计、工艺及用料，都是空前绝后的水平。U系列自此开始完全设计定型。MX/SX为U10BL及U10A原厂搭载自动演奏系统专属型号，相当于目前全新在售的DU1ENST。OP免费为自家SX/MX客户独家提供2000余首高品质自动演奏曲目。是全新加坡初学钢琴最具性价比的选择，没有之一。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 5009982,
@@ -157,6 +165,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/B8Ag-p7WIYo?si=PDCScJqdNO6NtHkM",
         "description": "YAMAHA was founded in Hamamatsu, Japan, in 1887 and began producing grand pianos in 1901. It is the global leader in assembly line piano manufacturing. YAMAHA reached its true peak from 1987 to 1997, achieving unprecedented levels in product design, craftsmanship, and materials. The U Series was fully standardized during this period.<br><br>The SX series with WnC special appearance is a model exclusively equipped with automatic playing system at the same time as the original U10BL and U10A. It is equivalent to the current DU1ENST model, which is newly available for sale, with an optional solid American walnut composite shell, coupled with cat paw curved legs, making it highly aesthetic and valuable.We exclusively offer over 2,000 high-quality automatic playing pieces free of charge to our MX/SX customers. It is the most cost-effective choice for beginner pianos in all of Singapore.",
         "description2": "雅马哈1887年创立于日本滨松，1901年开始生产三角钢琴。是全球流水线钢琴制造业的领航者。雅马哈于1987年开始达到真正的巅峰，至1997年期间，不论产品设计、工艺及用料，都是空前绝后的水平。U系列自此开始完全设计定型。MX/SX为U10BL和U10A以及W系列原厂搭载自动演奏系统专属型号，相当于目前全新在售的DU1ENST再选装木色外壳。OP免费为自家SX/MX客户独家提供2000余首高品质自动演奏曲目。是全新加坡初学钢琴最具性价比的选择，没有之一。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 4912365,
@@ -173,6 +182,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/xEhUFdPvq2E?si=A51C_9Ua0_G79inJ",
         "description": "The fifth generation UX series from Japan's YAMAHA, featuring true 米 backs, was only available between 1990 and 1997. Due to high manufacturing costs and dwindling stocks of old wood after 1997, along with Japan's economic downturn, 米 back production ceased. Although the UX series was first released in 1975, the first four generations before 1990 featured a three-pillar crossing and were not 米, with significant differences in manufacturing processes, design, and material configuration compared to the later two generations. The playing experience of the true 米 back is much better than the current YUS series on sale. It's an essential collectible for YAMAHA piano enthusiasts.",
         "description2": "日本YAMAHA第五代UX系列，真正的大米字背架，只在1990-1997年之间发售，由于制造成本高昂加之1997年后日本库存老料木材消耗殆尽以及日本经济下行，大米字背停产。虽然UX系列早在1975年发售，但是1990年之前的四代UX为三柱交叉，并非米字，且制造工艺与设计以及材料配置与后两代大米字背有很大差距。真正大米字背的弹奏效果要比如今在售的YUS系列好很多。是YAMAHA钢琴发烧友的必备藏品。",
+        "pianostatus": "out",
     },
     {
         "serial": 5128074,
@@ -190,6 +200,7 @@ const pianosList = [
         "videoLink2": "https://www.youtube.com/embed/AYGuKIVxhrE?si=EydHpVA-1JRXvZN_",
         "description": "The YAMAHA WX5AWnC, produced during the peak period of Japanese instrument manufacturing from 1990 to 1995, is a true masterpiece. It features an American walnut solid wood outer shell, with a soundboard made from 200-year-old Hokkaido fish-scale pine that has been naturally air-dried for 20 years. The middle pedal is a grand piano selective sustain pedal, and the soft pedal is controlled by a hand lever. It is equipped with top-quality W-grade rosewood hammers, and the bass and mid-range areas feature individual string supports like a grand piano, while the treble and upper mid-range have thicker, reinforced pressure bars. <br><br>This model, with all the top configurations and craftsmanship of YAMAHA Japan, is a rare gem. The rice-back design was only produced between 1990 and 1997. Its tone completely surpasses the classic YAMAHA U series.",
         "description2": "YAMAHA雅马哈WX5AWnC真正大米字背1990-1995年日本乐器制造巅峰时期巅峰之作。美国胡桃木实木外壳；200年树龄北海道鱼鳞松音板自然风干20年；中踏板三角钢琴选择性延音踏板；弱音帘手拉杆控制；W顶级红木琴槌；低音区及中音区三角钢琴独立弦枕、中高音区及高音区加粗加厚压弦条。及雅马哈日本制造所有顶级配置和顶级工艺于一身。大米字背绝版好琴仅在1990-1997年期间生产。音色远超YAMAHA经典U系列。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 4909810,
@@ -207,6 +218,7 @@ const pianosList = [
         "videoLink2": "https://www.youtube.com/embed/H3vZhNBaa-k?si=xQq7MUijCmZ8ZgD1",
         "description": "The YAMAHA W3AMhC, manufactured in Japan between 1990 and 1994, is an upgraded version of the U3 with a height of 131 cm, as YUS3 today. It features several enhancements compared to the U30A of the same period, including a rosewood-colored mahogany solid wood composite high-gloss finish outer shell, decorative carvings on the top panel, and a cat-foot curved leg design. The hammers are upgraded to YAMAHA K-grade redwood, and the soundboard material is more refined than that of the U30A. The selling price for W3AMhC was priced at 870,000円, which was 1.6 times more expensive than the U30BL priced at 580,000円 in Japan.",
         "description2": "雅马哈W3AMhC日本1990-1994年制造，131高度的U3升级版，比同期U30A升级了红木色桃花心木实木复合亮光漆面外壳、上门板雕花装饰、猫脚弯腿造型。琴槌升级雅马哈红木K级，音板材质比U30A更考究。当年售价87万日元，比U30BL的58万日元售价贵了1.6倍。相当于当前在售YUS3彩色版本和U3的差别。",
+        "pianostatus": "out",
     },
     {
         "serial": "New C3X",
@@ -223,6 +235,7 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/DEKNaVEJKUg?si=8Yp6i_pvK2e6jRcx",
         "description": "YAMAHA C3X was first launched in October 2012. It is a grand piano that inherits flagship-level design, offering bright, resonant tone and responsive, balanced touch, making it ideal for professional performance and advanced study. <br><br>Our brand-new Japanese YAMAHA pianos are sourced exclusively through parallel import, and we only offer <b>Japan domestic models</b>. For even the same model, Japanese domestic versions are built with higher manufacturing precision and stricter quality control compared with export versions. This allows us to provide superior quality at a lower price, offering outstanding value for discerning buyers.<br><br> <b>Kindly Reminder: </b>The pricing of new pianos may fluctuate due to market conditions and exchange rate changes. Please contact us for the latest quotation.",
         "description2": "YAMAHA C3X 于2012年10月开始生产，是一款承袭旗舰设计、音色明亮共鸣丰富、触键灵敏均衡的大三角钢琴，非常适合专业演奏与高阶学习使用。本公司全新日本琴采取平行进口方式，只预定 <b>日本内销版 </b>。因为YAMAHA同样的型号，日本内销版在制造、质检环节要比出口版的更精细，所以我们价格更低的同时可以做到品质更好。<br><br> <b>温馨提示：</b>全新钢琴的订购价格会受到市场和汇率波动，请联系我们获取最新报价。",
+        "pianostatus": "pre",
     },
     {
         "serial": "New C1X",
@@ -239,11 +252,12 @@ const pianosList = [
         "videoLink": "https://www.youtube.com/embed/3yqC3AO4drM?si=XWSQ__hf_JFF9JOS",
         "description": "YAMAHA C1X was first launched in October 2012. It is a baby grand piano that combines refined craftsmanship with clear, warm tone and precise touch, making it perfect for home use, teaching, and intimate performance settings.<br><br>Our brand-new Japanese YAMAHA pianos are sourced exclusively through parallel import, and we only offer <b>Japan domestic models</b>. For even the same model, Japanese domestic versions are built with higher manufacturing precision and stricter quality control compared with export versions. This allows us to provide superior quality at a lower price, offering outstanding value for discerning buyers.<br><br> <b>Kindly Reminder: </b>The pricing of new pianos may fluctuate due to market conditions and exchange rate changes. Please contact us for the latest quotation.",
         "description2": "YAMAHA C1X 于2012年10月开始生产，是一款紧凑型小三角钢琴，兼具精湛工艺、清晰温暖的音色与精准的触感，非常适合家庭使用、教学及小型演奏场合。<br><br>本公司全新日本琴采取平行进口方式，只预定 <b>日本内销版 </b>。因为YAMAHA同样的型号，日本内销版在制造、质检环节要比出口版的更精细，所以我们价格更低的同时可以做到品质更好。<br><br> <b>温馨提示：</b>全新钢琴的订购价格会受到市场和汇率波动，请联系我们获取最新报价。",
+        "pianostatus": "pre",
     },
     {
-        "serial": "6263763",
+        "serial": 6263763,
         "uri": "images/product/yam6263763/0.jpg",
-        "price": 20000,
+        "price": 18000,
         "modelName": "A1LS",
         "modelName2": "A1LS",
         "brand": "YAMAHA",
@@ -256,6 +270,61 @@ const pianosList = [
         "videoLink2": "https://www.youtube.com/embed/o9Jbwf_yTeg?si=tbUnUkMFOGb5kVt1",
         "description": "Launched in 1995, the YAMAHA A1 is the smallest grand piano ever made in Japan by YAMAHA, measuring only 149 cm in length. It was developed to meet the needs of customers who admired the C1 model but had limited living space and did not want the feel of an upright piano. As a result, the A1 was introduced as a more compact alternative to the C1, offering the same level of performance in a smaller footprint — a perfect solution for high-quality grand piano experience in small apartments. <br><br>In 2010, YAMAHA discontinued the A1 due to its production costs being nearly identical to the C1, which began to affect the sales of both the C1 and the GC1. Since then, YAMAHA has replaced its compact grand offerings with the more cost-effective GB1 and GN1 models, manufactured in Indonesia with lower-grade materials.",
         "description2": "YAMAHA A1 于 1995 年推出，是 YAMAHA 在日本制造的最小三角钢琴，仅 149 厘米长。它的开发旨在满足那些喜爱 C1 型号但居住空间有限且不想使用立式钢琴的客户需求。因此，A1 作为 C1 的紧凑替代品问世，在更小的空间内提供同等演奏表现——为小公寓中的高品质三角钢琴体验提供完美解决方案。<br><br>2010 年，由于 A1 的生产成本几乎与 C1 相同，开始影响 C1 和 GC1 的销售，YAMAHA 停产了 A1。此后，YAMAHA 用在印尼生产、采用较低档材料的更具成本效益的 GB1 和 GN1 型号替代了其紧凑型三角钢琴系列。",
+        "pianostatus": "sold",
+    },
+    {
+        "serial": 4281396,
+        "uri": "images/product/yam4281396/0.jpg",
+        "price": 4800,
+        "modelName": "W110BW",
+        "modelName2": "W110BW",
+        "brand": "YAMAHA",
+        "brand2": "雅马哈",
+        "origin": "Japan",
+        "origin2": "日本",
+        "link": "yam4281396.html",
+        "imageCount": 17,
+        "videoLink": "https://www.youtube.com/embed/LZlv_vm4E0Y?si=W-sjH8grwTpkWQKj",
+        "videoLink2": "https://www.youtube.com/embed/pFJr4rlZFqc?si=9LFj7xn_3IGiMU37",
+        "description": "The Yamaha W110BW, manufactured in Japan in 1987, is a 121 cm upright and an upgraded version of the U1. Compared with its contemporary U1, it features a walnut solid-wood composite cabinet with elegantly curved legs, enhancing both aesthetics and craftsmanship.<br><br>The piano is fitted with <b>Yamaha K-grade purple-core hammers</b>, equivalent in quality to the UX series of the same period, and its soundboard is crafted from more carefully selected materials than the standard U1. At the time, its price was approximately 1.5 times that of a U1, similar to the difference between today's YUS1 wood-finish model and the standard U1.",
+        "description2": "雅马哈W110BW于日本1987年制造，是121高度的U1升级版，比同期U1升级了胡桃木实木复合猫脚弯腿外壳。琴槌升级雅马哈紫芯K级，等同于同期UX系列的品质。音板材质比U1更考究。售价是同期U1的1.5倍，相当于当前在售YUS1木色版本和U1的差别。",
+        "pianostatus": "on stock",
+    },
+    {
+        "serial": 5146694,
+        "uri": "images/product/yam5146694/0.jpg",
+        "price": 8200,
+        "modelName": "WX3ABiC",
+        "modelName2": "WX3ABiC",
+        "brand": "YAMAHA",
+        "brand2": "雅马哈",
+        "origin": "Japan",
+        "origin2": "日本",
+        "link": "yam5146694.html",
+        "imageCount": 18,
+        "videoLink": "https://www.youtube.com/embed/uSuCYLIEsZk?si=KSArAyR3djK0kqHG",
+        "videoLink2": "https://www.youtube.com/embed/ks3QH57jnKY?si=ttViKMXXuc_4AnKE",
+        "description": "The Yamaha WX3ABiC, produced in Japan between 1990 and 1993, is a rare high-end 131 cm upright piano. Essentially an upgraded version of the UX30A cabinet, it features a large music rack, a burgundy polished solid mahogany case with elegantly curved legs, and authentic 米-back bracing.<br><br>Equipped with YAMAHA purple-core K-grade hammers, independent bass and lower-midrange bridge pins, and reinforced mid-to-high and treble strings, it represents a comprehensive upgrade over the U3. At the time of release, its price was ¥990,000 — approximately 1.7 times that of the contemporary UX30A.",
+        "description2": "WX3ABiC是日本雅马哈1990-1993年期间制造的131高度高端稀有立式钢琴，相当于UX30A的外壳升级版：大谱台造型、酒红色猫脚弯腿桃花心木亮光外壳。真正米字背柱，紫芯K级琴槌，低音区、中低音区三角钢琴独立弦枕，中高音区、高音区加粗加厚压弦条。相当于U3全方位升级，当年售价99万日元是同期U30A售价的1.7倍。",
+        "pianostatus": "on stock",
+    },
+    {
+        "serial": 5413396,
+        "uri": "images/product/yam5413396/0.jpg",
+        "price": 6200,
+        "modelName": "U1-Ultra(HQ100BWn)",
+        "modelName2": "U1-高配(HQ100BWn)",
+        "brand": "YAMAHA",
+        "brand2": "雅马哈",
+        "origin": "Japan",
+        "origin2": "日本",
+        "link": "yam5413396.html",
+        "imageCount": 19,
+        "videoLink": "https://www.youtube.com/embed/bzkZ07yV1_I?si=lsJ4BEUupoLQnrr3",
+        "videoLink2": "https://www.youtube.com/embed/PAQET5VffAc?si=ttViKMXXuc_4AnKE",
+        "description": "The Yamaha HQ100BWn, produced between 1994 and 1996, is a high-end upright piano with an upgraded automatic playing system, representing an enhanced version of the U1. It features 米-back bracing with <b>Yamaha purple-core K-grade hammers<b>, delivering exceptional touch and tonal clarity.<br><br>The cabinet is a rare full solid American walnut, and the soundboard is crafted from carefully selected materials matching contemporary 米-back models. At the time of release, it was priced at ¥1,090,000 — twice the price of the standard U100 (¥540,000) — making it a highly collectible instrument with significant long-term value.",
+        "description2": "HQ100BWn是雅马哈1994-1996年期间制造的U1升级版自动演奏高端钢琴。搭载米字背同款YAMAHA紫芯K级琴槌，外壳全方位升级稀有美国胡桃木，音版选材也与同期米字背一样。此琴当年发售价格高达109万日元，是同期U100售价54万日元的2倍，几乎等同于同期三角钢琴的价格，极具收藏价值。",
+        "pianostatus": "on stock",
     },
 
     // KAWAI
@@ -276,6 +345,7 @@ const pianosList = [
         "videoLink2": "https://www.youtube.com/embed/vezoqkfL_8k?si=9Y1AriyQwqS4DT5O",
         "description": "The Kawai K-80 is the flagship upright piano of KAWAI Japan, produced for the domestic market between 1998 and 2002. Featuring a black high-gloss resin finish, a large music rack, 132 cm height, six back posts, and a premium Hokkaido spruce soundboard, it also incorporates KAWAI’s exclusive patented soundboard hole design.<br><br>ALEART: The K-80 was succeeded by the K-8, produced from 2003 to 2014. From 2015 onward, the highest-grade K-series piano for the Japanese domestic market has been the K-700. There was never a K800 model in the Japanese market for sale. The Kawai domestic flagship piano in Japan is the model C-980RE.",
         "description2": "卡瓦依K-80是日本KAWAI公司1998-2002年期间在日本内销的黑色树脂亮光立式的旗舰型号。大谱架造型，132高度，6背柱、北海道高级云杉音板，独家透音孔专利设计。<br><br>注意：K80的下一代型号是K-8，生产与2003-2014年期间。而从2015年开始，日本内销的K系列最高级只有K700，K8系的钢琴在日本本土不再发售。所以日本本土没有K800这个型号，日本内销旗舰机型是C-980RE。",
+        "pianostatus": "on stock",
     },
     {
         "serial": 2367076,
@@ -290,9 +360,10 @@ const pianosList = [
         "link": "kaw2367076.html",
         "imageCount": 20,
         "videoLink": "https://www.youtube.com/embed/i3n-m4lM-YU?si=JbMATpmMb9gvxMmn",
-        "videoLink2": "https://www.youtube.com/embed/YGqpDh-XCCo?si=JQO2YAT5M-6CVlVo",
+        "videoLink2": "https://www.youtube.com/embed/YGqpDh-XCCo?si=DgpWkeAGWPJMy5ld",
         "description": "The Kawai KU-10 was produced for the Japanese domestic market between 1996 and 2000. Standing at 122 cm, it represents Kawai’s standard upright configuration of that era. Starting in 1998, Kawai introduced the ABS 2.5 action, offering significantly improved stability compared with earlier generations. In terms of positioning, the KU-10 corresponds closely to today’s Kawai K-300.<br><br>Compared with Yamaha’s U1 models from the same period, the KU-10 was priced more affordably, making it an attractive and cost-effective option in the Japanese second-hand market. Its reliability, solid construction, and balanced performance make it a strong entry-level choice for students and home use.",
         "description2": "KU-10是日本KAWAI在1996-2000年期间日本发售的122高度标准版立式钢琴。KAWAI在1998年开始搭载ABS2.5代机芯，稳定性比1998年之前的KAWAI提升很多。KU-10的定位相当于现在KAWAI在售的K-300。KAWAI KU-10要比同期YAMAHA的U1便宜不少，是入门日本二手琴性价比不错的选择。",
+        "pianostatus": "on stock",
     },
     {
         "serial": "New K500",
@@ -310,6 +381,7 @@ const pianosList = [
         "videoLink2": "",
         "description": "Manufactured by KAWAI, Japan’s second-largest piano maker, this K-series upright features a 130 cm standard cabinet, the <b>3rd-generation Kawai carbon action</b>, a soft-closing fallboard, and simulated ivory keytops.<br><br>Our brand-new Japanese Kawai pianos are sourced exclusively through parallel import, and we only offer <b>Japan domestic models</b>. For even the same model, Japanese domestic versions are built with higher manufacturing precision and stricter quality control compared with export versions. This allows us to provide superior quality at a lower price, offering outstanding value for discerning buyers.<br><br> <b>Kindly Reminder: </b>The pricing of new pianos may fluctuate due to market conditions and exchange rate changes. Please contact us for the latest quotation.",
         "description2": "日本第二大钢琴制造商KAWAI制造的K系列130高度标准产品，搭载KAWAI第三代碳素机芯，缓降琴盖，彷象牙白键。本公司全新日本琴采取平行进口方式，只预定日本内销版。因为KAWAI同样的型号，日本内销版在制造、质检环节要比出口版的更精细，所以我们价格更低的同时可以做到品质更好。<br><br> <b>温馨提示：</b>全新钢琴的订购价格会受到市场和汇率波动，请联系我们获取最新报价。",
+        "pianostatus": "pre",
     },
     {
         "serial": "New C580",
@@ -327,7 +399,9 @@ const pianosList = [
         "videoLink2": "",
         "description": "The C series manufactured by Japan’s KAWAI is exclusively sold domestically in Japan, with materials and quality surpassing the K series in every aspect. The C-580 is positioned as an upgraded version of the K-300.<br><br>Our brand-new Japanese Kawai pianos are sourced exclusively through parallel import, and we only offer <b>Japan domestic models</b>. For even the same model, Japanese domestic versions are built with higher manufacturing precision and stricter quality control compared with export versions. This allows us to provide superior quality at a lower price, offering outstanding value for discerning buyers.<br><br> <b>Kindly Reminder: </b>The pricing of new pianos may fluctuate due to market conditions and exchange rate changes. Please contact us for the latest quotation.",
         "description2": "日本KAWAI公司制造的C系列仅限日本本土发售，其材料和品质在各方面均优于K系列。C-580 的定位相当于 K-300 的升级版。本公司全新日本琴采取平行进口方式，只预定日本内销版。因为KAWAI同样的型号，日本内销版在制造、质检环节要比出口版的更精细，所以我们价格更低的同时可以做到品质更好。<br><br> <b>温馨提示：</b>全新钢琴的订购价格会受到市场和汇率波动，请联系我们获取最新报价。",
+        "pianostatus": "on stock",
     },
+    
 
     // OHHASHI
     // {
