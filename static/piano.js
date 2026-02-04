@@ -170,6 +170,24 @@ const pianosList = [
         "description2": "施坦威K132于是该公司立式型号的招牌产品。1906年开始发售,德国汉堡生产的K132在2019年之前绝大多数为3踏板,纽约产K132二战后至今均为3踏板,且中踏板为三角琴专属的选择性延音功能。此琴番号611419,德国汉堡2019年制造,欧洲琴行库存展品。",
         "pianostatus": "sold",
     },
+    {
+        "serial": 458674,
+        "uri": "images/product/ste458674/0.jpg",
+        "price": 158000,
+        "modelName": "M170 Louis XV",
+        "modelName2": "M170 路易十五",
+        "brand": "STEINWAY & SONS",
+        "brand2": "施坦威",
+        "origin": "Hamburg, Germany",
+        "origin2": "德国汉堡",
+        "link": "ste458674.html",
+        "imageCount": 54,
+        "videoLink": "https://www.youtube.com/embed/zltESBwNdNs?si=fWlZD8y6rGgn7Tmv",
+        "videoLink2": "https://www.youtube.com/embed/L7-5QHgjGcg?si=hoYKmd1THRciPwAg",
+        "description": "The Louis XV-style Steinway was, prior to World War II, custom-made exclusively for royalty, nobility, and distinguished statesmen around the world. The Model M was finalized in 1918, and its structural design has remained unchanged ever since. All materials were sourced from top-grade, now-extinct post-war timbers: the soundboard and other tonal components were crafted from slow-grown spruce, approximately 500 years old, and naturally seasoned for 30 years.<br><br>This particular Steinway M170 Louis XV, serial number 458674, was handcrafted in Hamburg, Germany in 1979. It is an exceptionally rare private commission. In 2024, it underwent a comprehensive restoration in Europe, fully returning it to the condition and performance of a brand-new instrument. The current price of a new model reaches as high as SGD 1.1 million.",
+        "description2": "路易十五款施坦威在二战之前，专为世界各国皇室、贵族、政要定制，M型号设计定型年份为1918年，至今在结构设计上没有变化。选料均为二战后绝版的顶级木料：音板等音源部件采用500年左右树龄的寒带云杉，自然静置30年。此台施坦威M170路易十五。番号458674德国汉堡1979年制造， 极其稀有的私人定制款 。2024年欧洲深度重建， 完全恢复新琴一样的成色和使用性能，新琴售价高达110万新币。",
+        "pianostatus": "sold",
+    },
 
     // Blüthner
 
