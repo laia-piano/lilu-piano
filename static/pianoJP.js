@@ -275,7 +275,7 @@ const pianosList = [
     {
         "serial": 4281396,
         "uri": "images/product/yam4281396/0.jpg",
-        "price": 5000,
+        "price": 5500,
         "modelName": "W110BW",
         "modelName2": "W110BW",
         "brand": "YAMAHA",
