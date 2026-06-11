@@ -234,7 +234,7 @@ const pianosList = [
     {
         "serial": 306897,
         "uri": "images/product/sch306897/0.jpg",
-        "price": 30000,
+        "price": 40000,
         "modelName": "Bespoke Edition",
         "modelName2": "台灯私人订制款",
         "brand": "SCHIMMEL",
@@ -253,7 +253,7 @@ const pianosList = [
     {
         "serial": 154917,
         "uri": "images/product/sch154917/0.jpg",
-        "price": 25000,
+        "price": 35000,
         "modelName": "Bespoke Edition",
         "modelName2": "台灯私人订制款",
         "brand": "SCHIMMEL",
